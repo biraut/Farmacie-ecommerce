@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import styled from "styled-components";
+import { DARK_GREEN } from "../../constants/color";
 
 export const Nav = styled.nav`
   background-color: #f8f9fa;
@@ -19,16 +20,23 @@ export const ProdContainer = styled.div`
   position: relative;
 `;
 
-export const ProdButton = styled.button`
+export const ProdButton = styled(Link)`
   background-color: #4caf50;
-  font-size: 18px;
-  width: 18vw;
+  width: 16vw;
   color: white;
+  padding: 10px 20px;
+  text-decoration: none;
   border: none;
-  padding: 20px;
-  cursor: pointer;
   border-radius: 5px;
-  position: relative;
+  cursor: pointer;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &:hover {
+    background: ${DARK_GREEN};
+  }
 `;
 
 export const ProdDropdown = styled.div`
@@ -61,7 +69,7 @@ export const NavLinks = styled.div`
   display: flex;
 `;
 
-export const NavLink = styled.a`
+export const NavLink = styled(Link)`
   color: #333;
   text-decoration: none;
   padding: 0 15px;

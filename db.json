@@ -1,0 +1,464 @@
+{
+  "prods": [
+    {
+      "id": 1,
+      "name": "Paracetamol",
+      "price": "15.0 LEI",
+      "img": "https://comenzi.farmaciatei.ro/gallery/30928/medium/paracetamol-helcor-500-mg-20-comprimate-helcor-1869.webp",
+      "description": "Paracetamol 500mg, comprimate. Producător: Acetaminophen Inc.",
+      "brand": "Acetaminophen",
+      "type": "Fără rețetă"
+    },
+    {
+      "id": 2,
+      "name": "Ibuprofen",
+      "price": "20.0 LEI",
+      "img": "https://comenzi.farmaciatei.ro/gallery/59174/ibuprofen-fiterman-50-mg-g-gel-50-g-fiterman-pharma-525.png",
+      "description": "Ibuprofen 200mg, comprimate. Producător: Advil Co.",
+      "brand": "Advil",
+      "type": "Fără rețetă"
+    },
+    {
+      "id": 3,
+      "name": "Aspirin",
+      "price": "18.5 LEI",
+      "img": "https://comenzi.farmaciatei.ro/gallery/89478/medium/aspirina-organica-60-capsule-herbagetica-4241.webp",
+      "description": "Aspirină 325mg, comprimate. Producător: Bayer AG.",
+      "brand": "Bayer",
+      "type": "Fără rețetă"
+    },
+    {
+      "id": 4,
+      "name": "Amoxicillin",
+      "price": "30.0 LEI",
+      "img": "https://www.lasanteca.com/userfiles/2018/12/AMOXICILINA-500MG-CAJA-POR-50-CAPSULAS-CON-BLISTER.jpg",
+      "description": "Amoxicilină 500mg, capsule. Producător: Moxatag Pharmaceuticals.",
+      "brand": "Moxatag",
+      "type": "Rețetă"
+    },
+    {
+      "id": 5,
+      "name": "Lisinopril",
+      "price": "25.0 LEI",
+      "img": " https://www.crescentpharma.com/wp-content/uploads/2017/08/Lisinopril-5mg-Tablets_28s-1.png",
+      "description": "Lisinopril 10mg, comprimate. Producător: Prinivil Labs.",
+      "brand": "Prinivil",
+      "type": "Rețetă"
+    },
+    {
+      "id": 6,
+      "name": "Metformin",
+      "price": "22.5 LEI",
+      "img": " https://api.evaro.com/wp-content/uploads/2023/09/Metformin-500mg-min.png",
+      "description": "Metformină 500mg, comprimate. Producător: Glucophage Corp.",
+      "brand": "Glucophage",
+      "type": "Rețetă"
+    },
+    {
+      "id": 7,
+      "name": "Atorvastatin",
+      "price": "28.0 LEI",
+      "img": " https://www.meldinpharma.com/web/image/product.template/5305/image_1024?unique=ccfd778",
+      "description": "Atorvastatin 20mg, comprimate. Producător: Lipitor Inc.",
+      "brand": "Lipitor",
+      "type": "Rețetă"
+    },
+    {
+      "id": 8,
+      "name": "Omeprazole",
+      "price": "19.0 LEI",
+      "img": " https://res.cloudinary.com/zava-www-uk/image/upload/fl_progressive/a_exif,f_auto,e_sharpen:100,c_fit,w_1080,h_810,q_70,fl_lossy/v1706806290/sd/uk/services-setup/acid-reflux/omeprazole/knh8cjncnq9z5axkil3h.png",
+      "description": "Omeprazol 20mg, capsule. Producător: Prilosec Pharmaceuticals.",
+      "brand": "Prilosec",
+      "type": "Fără rețetă"
+    },
+    {
+      "id": 9,
+      "name": "Simvastatin",
+      "price": "26.0 LEI",
+      "img": " https://romeds.com/wp-content/uploads/2022/12/Simvastatin.png",
+      "description": "Simvastatin 10mg, comprimate. Producător: Zocor Ltd.",
+      "brand": "Zocor",
+      "type": "Rețetă"
+    },
+    {
+      "id": 10,
+      "name": "Losartan",
+      "price": "24.5 LEI",
+      "img": " https://fastcdn.pro/FileGallery/zagrosdarou.com/%D8%AF%D8%A7%D8%B1%D9%88%D9%87%D8%A7%DB%8C-%DA%A9%D8%A7%D9%87%D9%86%D8%AF%D9%87-%D9%81%D8%B4%D8%A7%D8%B1-%D8%AE%D9%88%D9%86/%D9%84%D9%88%D8%B2%D8%A7%D8%B1%D8%AA%D8%A7%D9%86_50_%D9%85%DB%8C%D9%84%DB%8C_%DA%AF%D8%B1%D9%85/3D-Box-Losartan.png",
+      "description": "Losartan 50mg, comprimate. Producător: Cozaar Inc.",
+      "brand": "Cozaar",
+      "type": "Rețetă"
+    },
+    {
+      "id": 11,
+      "name": "Albuterol",
+      "price": "20.0 LEI",
+      "img": " https://www.mountainside-medical.com/cdn/shop/files/Albuterol-Sulfate-Inhalation-Aerosol-HFA-90-mcg-Inhaler-by-sandoz_700x700.jpg?v=1684851852",
+      "description": "Albuterol 90mcg, inhalator. Producător: Ventolin Pharmaceuticals.",
+      "brand": "Ventolin",
+      "type": "Rețetă"
+    },
+    {
+      "id": 12,
+      "name": "Gabapentin",
+      "price": "23.0 LEI",
+      "img": " https://www.camberpharma.com/wp-content/uploads/2021/11/Gabapentin_600mg_100ct.jpg",
+      "description": "Gabapentin 300mg, capsule. Producător: Neurontin Labs.",
+      "brand": "Neurontin",
+      "type": "Rețetă"
+    },
+    {
+      "id": 13,
+      "name": "Sertraline",
+      "price": 27.5,
+      "img": " https://www.crescentpharma.com/wp-content/uploads/2016/01/Sertraline-50mg-Film-coated-Tablets_28s_FF-1.png",
+      "description": "Sertralină 50mg, comprimate. Producător: Zoloft Inc.",
+      "brand": "Zoloft",
+      "type": "Rețetă"
+    },
+    {
+      "id": 14,
+      "name": "Furosemide",
+      "price": "21.0 LEI",
+      "img": " https://shopsuki.ph/cdn/shop/files/104396661_2_800x.png?v=1687252616",
+      "description": "Furosemid 40mg, comprimate. Producător: Lasix Pharmaceuticals.",
+      "brand": "Lasix",
+      "type": "Rețetă"
+    },
+    {
+      "id": 15,
+      "name": "Hydrochlorothiazide",
+      "price": "22.0 LEI",
+      "img": " https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbIV8eg14olKfj47dZgCWAEeexd2xu8vcKXw&",
+      "description": "Hidroclorotiazidă 25mg, comprimate. Producător: Microzide Corp.",
+      "brand": "Microzide",
+      "type": "Rețetă"
+    },
+    {
+      "id": 16,
+      "name": "Zolpidem",
+      "price": "25.5 LEI",
+      "img": " https://farmaciaprofarm.ro/media/catalog/product/cache/4/image/9df78eab33525d08d6e5fb8d27136e95/z/o/zolpidem-atb-600.jpg",
+      "description": "Zolpidem 10mg, comprimate. Producător: Ambien Pharmaceuticals.",
+      "brand": "Ambien",
+      "type": "Rețetă"
+    },
+    {
+      "id": 17,
+      "name": "Citalopram",
+      "price": "24.0 LEI",
+      "img": " https://www.crescentpharma.com/wp-content/uploads/2023/08/Citalopram-10mg-Film-coated-Tablets_FF.png",
+      "description": "Citalopram 20mg, comprimate. Producător: Celexa Inc.",
+      "brand": "Celexa",
+      "type": "Rețetă"
+    },
+    {
+      "id": 18,
+      "name": "Montelukast",
+      "price": "23.5 LEI",
+      "img": " https://welzo.com/cdn/shop/articles/montelukast-uses-side-effects-and-interactions-welzo_081f9b33-d8fc-4072-9b8f-22492b535d80.png?v=1710941586",
+      "description": "Montelukast 10mg, comprimate. Producător: Singulair Corp.",
+      "brand": "Singulair",
+      "type": "Rețetă"
+    },
+    {
+      "id": 19,
+      "name": "Pantoprazole",
+      "price": "21.5 LEI",
+      "img": " https://www.krishlarpharma.com/wp-content/uploads/2019/12/KRITZOL-40-tablet.jpg",
+      "description": "Pantoprazol 40mg, comprimate. Producător: Protonix Ltd.",
+      "brand": "Protonix",
+      "type": "Rețetă"
+    },
+    {
+      "id": 20,
+      "name": "Escitalopram",
+      "price": "28.5 LEI",
+      "img": " https://chedrauimx.vtexassets.com/arquivos/ids/28218526/7501349024366_00.jpg?v=638470597544900000",
+      "description": "Escitalopram 10mg, comprimate. Producător: Lexapro Pharmaceuticals.",
+      "brand": "Lexapro",
+      "type": "Rețetă"
+    },
+    {
+      "id": 21,
+      "name": "Prednisone",
+      "price": "18.0 LEI",
+      "img": " https://www.xalmeds.com/cdn/shop/files/BBA7C6AF-3165-4F01-AC7C-BF1C5B7A4E8E.jpg?v=1698222761",
+      "description": "Prednison 20mg, comprimate. Producător: Deltasone Inc.",
+      "brand": "Deltasone",
+      "type": "Rețetă"
+    },
+    {
+      "id": 22,
+      "name": "Trazodone",
+      "price": "19.5 LEI",
+      "img": " https://www.buy-pharma.md/img/uploads/1665-Trazonil-50-Generic-Desyrel-Trazodone-50mg-Tablet.jpg",
+      "description": "Trazodonă 50mg, comprimate. Producător: Desyrel Corp.",
+      "brand": "Desyrel",
+      "type": "Rețetă"
+    },
+    {
+      "id": 23,
+      "name": "Meloxicam",
+      "price": "22.0 LEI",
+      "img": " https://farmaciaprofarm.ro/media/catalog/product/M/E/MELOXICAM_7.5mg_3D75e4-600.jpg",
+      "description": "Meloxicam 15mg, comprimate. Producător: Mobic Pharmaceuticals.",
+      "brand": "Mobic",
+      "type": "Rețetă"
+    },
+    {
+      "id": 24,
+      "name": "Clopidogrel",
+      "price": "26.5 LEI",
+      "img": " https://southstardrug.com.ph/cdn/shop/products/22020_1_800x.jpg?v=1666750837",
+      "description": "Clopidogrel 75mg, comprimate. Producător: Plavix Inc.",
+      "brand": "Plavix",
+      "type": "Rețetă"
+    },
+    {
+      "id": 25,
+      "name": "Atenolol",
+      "price": "20.0 LEI",
+      "img": " https://www.adiuvopharma.com/wp-content/uploads/2022/05/Render15.png",
+      "description": "Atenolol 50mg, comprimate. Producător: Tenormin Labs.",
+      "brand": "Tenormin",
+      "type": "Rețetă"
+    },
+    {
+      "id": 26,
+      "name": "Alprazolam",
+      "price": "27.0 LEI",
+      "img": " https://www.medpont.ro/wp-content/uploads/2019/06/Alprazolam.jpg",
+      "description": "Alprazolam 1mg, comprimate. Producător: Xanax Pharmaceuticals.",
+      "brand": "Xanax",
+      "type": "Rețetă"
+    },
+    {
+      "id": 27,
+      "name": "Amlodipine",
+      "price": "23.5 LEI",
+      "img": " https://res.cloudinary.com/zava-www-uk/image/upload/fl_progressive/a_exif,f_auto,e_sharpen:100,c_fit,w_1080,h_810,q_70,fl_lossy/v1707298988/sd/uk/services-setup/high-blood-pressure-unit/amlodipine/aglli6kztlzk3s8fwajd.png",
+      "description": "Amlodipină 5mg, comprimate. Producător: Norvasc Corp.",
+      "brand": "Norvasc",
+      "type": "Rețetă"
+    },
+    {
+      "id": 28,
+      "name": "Diclofenac",
+      "price": "24.0 LEI",
+      "img": " https://farmacia-abc.ro/wp-content/uploads/2017/03/DICLOFENAC-50-MG-X-20-CP-TERAPIA.jpg",
+      "description": "Diclofenac 50mg, gel. Producător: Voltaren Pharmaceuticals.",
+      "brand": "Voltaren",
+      "type": "Rețetă"
+    },
+    {
+      "id": 29,
+      "name": "Allopurinol",
+      "price": "22.5 LEI",
+      "img": " https://online-pharmacy4u.co.uk/cdn/shop/products/allopurinol-100mg-tablets-253726_1200x1200.jpg?v=1649266561",
+      "description": "Allopurinol 300mg, comprimate. Producător: Zyloprim Ltd.",
+      "brand": "Zyloprim",
+      "type": "Rețetă"
+    },
+    {
+      "id": 30,
+      "name": "Metoprolol",
+      "price": "24.5 LEI",
+      "img": " https://www.mountainside-medical.com/cdn/shop/files/Metoprolol-Tartrate-for-Injection-5-ml-x-10-per-box.jpg?v=1686226233",
+      "description": "Metoprolol 50mg, comprimate. Producător: Lopressor Inc.",
+      "brand": "Lopressor",
+      "type": "Rețetă"
+    },
+    {
+      "id": 31,
+      "name": "Carvedilol",
+      "price": "23.0 LEI",
+      "img": " https://5.imimg.com/data5/SELLER/Default/2021/6/KT/TJ/LE/3184985/crisdilol12-5.jpg",
+      "description": "Carvedilol 12.5mg, comprimate. Producător: Coreg Pharmaceuticals.",
+      "brand": "Coreg",
+      "type": "Rețetă"
+    },
+    {
+      "id": 32,
+      "name": "Warfarin",
+      "price": "25.0 LEI",
+      "img": "https://miro.medium.com/v2/resize:fit:463/1*AQT02HC_kGcxhe_LQCyLug.png",
+      "description": "Warfarină 5mg, comprimate. Producător: Coumadin Inc.",
+      "brand": "Coumadin",
+      "type": "Rețetă"
+    },
+    {
+      "id": 33,
+      "name": "Cyclobenzaprine",
+      "price": "21.0 LEI",
+      "img": " https://www.solcohealthcare.com/wp-content/uploads/2019/08/Cyclobenzaprine.jpg",
+      "description": "Cyclobenzaprină 10mg, comprimate. Producător: Flexeril Ltd.",
+      "brand": "Flexeril",
+      "type": "Rețetă"
+    },
+    {
+      "id": 34,
+      "name": "Fluoxetine",
+      "price": "26.5 LEI",
+      "img": " https://www.morningsidepharm.com/wp-content/uploads/2018/08/Fluoxetine.jpg",
+      "description": "Fluoxetină 20mg, capsule. Producător: Prozac Pharmaceuticals.",
+      "brand": "Prozac",
+      "type": "Rețetă"
+    },
+    {
+      "id": 35,
+      "name": "Cetirizine",
+      "price": "18.0 LEI",
+      "img": " https://www.soin-et-nature.com/media/cache/shop_product_large_thumbnail/products/3/2/4/8/5/32485.jpg",
+      "description": "Cetirizină 10mg, comprimate. Producător: Zyrtec Ltd.",
+      "brand": "Zyrtec",
+      "type": "Fără rețetă"
+    },
+    {
+      "id": 36,
+      "name": "Venlafaxine",
+      "price": "27.0 LEI",
+      "img": " https://www.morningsidepharm.com/wp-content/uploads/2021/07/Venlafaxine-1.jpg",
+      "description": "Venlafaxină 75mg, comprimate. Producător: Effexor Inc.",
+      "brand": "Effexor",
+      "type": "Rețetă"
+    },
+    {
+      "id": 37,
+      "name": "Lorazepam",
+      "price": "25.0 LEI",
+      "img": " https://www.morningsidepharm.com/wp-content/uploads/2022/03/Lorazepam.jpg",
+      "description": "Lorazepam 1mg, comprimate. Producător: Ativan Ltd.",
+      "brand": "Ativan",
+      "type": "Rețetă"
+    },
+    {
+      "id": 38,
+      "name": "Quetiapine",
+      "price": "28.0 LEI",
+      "img": " https://www.eridanushealth.com/wp-content/uploads/2017/02/eriquito-50.jpg",
+      "description": "Quetiapină 100mg, comprimate. Producător: Seroquel Pharmaceuticals.",
+      "brand": "Seroquel",
+      "type": "Rețetă"
+    },
+    {
+      "id": 39,
+      "name": "Glipizide",
+      "price": "22.0 LEI",
+      "img": " https://s.turbifycdn.com/aah/yhst-135855760451349/glipizide-10mg-100-tabs-manufacture-may-vary-42.jpg",
+      "description": "Glipizidă 5mg, comprimate. Producător: Glucotrol Inc.",
+      "brand": "Glucotrol",
+      "type": "Rețetă"
+    },
+    {
+      "id": 40,
+      "name": "Clonazepam",
+      "price": "23.5 LEI",
+      "img": " https://5.imimg.com/data5/SELLER/Default/2023/10/355936321/AQ/YV/KP/201706771/clonazepam-0-5-mg-tablet-10x10.jpg",
+      "description": "Clonazepam 1mg, comprimate. Producător: Klonopin Ltd.",
+      "brand": "Klonopin",
+      "type": "Rețetă"
+    },
+    {
+      "id": 41,
+      "name": "Sulfamethoxazole/Trimethoprim",
+      "price": "20.0 LEI",
+      "img": " https://d2gdaxkudte5p.cloudfront.net/system/images/S47000-25.0.jpg",
+      "description": "Sulfametoxazol 400mg/Trimethoprim 80mg, comprimate. Producător: Bactrim Pharmaceuticals.",
+      "brand": "Bactrim",
+      "type": "Rețetă"
+    },
+    {
+      "id": 42,
+      "name": "Propranolol",
+      "price": "22.5 LEI",
+      "img": " https://pharmacymayfair.co.uk/wp-content/uploads/pharmacy_mentor/importImages/propranolol.jpeg",
+      "description": "Propranolol 40mg, comprimate. Producător: Inderal Inc.",
+      "brand": "Inderal",
+      "type": "Rețetă"
+    },
+    {
+      "id": 43,
+      "name": "Doxycycline",
+      "price": "23.0 LEI",
+      "img": " https://medsrus.co.uk/image/cache/catalog/old_site/104/doxycycline-capsules-100mg-1-800x800.jpg",
+      "description": "Doxiciclină 100mg, capsule. Producător: Vibramycin Ltd.",
+      "brand": "Vibramycin",
+      "type": "Rețetă"
+    },
+    {
+      "id": 44,
+      "name": "Oxycodone",
+      "price": "30.0 LEI",
+      "img": " https://www.drugs.com/pro/images/a5162476-1217-41c0-bc7e-0a0f123f069f/oxy-05.jpg",
+      "description": "Oxycodonă 10mg, comprimate. Producător: OxyContin Pharmaceuticals.",
+      "brand": "OxyContin",
+      "type": "Rețetă"
+    },
+    {
+      "id": 45,
+      "name": "Ciprofloxacin",
+      "price": "25.0 LEI",
+      "img": " https://fidson.com/wp-content/uploads/2022/09/Ciprofloxacin-500.png",
+      "description": "Ciprofloxacină 500mg, comprimate. Producător: Cipro Inc.",
+      "brand": "Cipro",
+      "type": "Rețetă"
+    },
+    {
+      "id": 46,
+      "name": "Duloxetine",
+      "price": "28.0 LEI",
+      "img": " https://www.eridanushealth.com/wp-content/uploads/2020/07/Duzin-30.jpg",
+      "description": "Duloxetină 60mg, capsule. Producător: Cymbalta Pharmaceuticals.",
+      "brand": "Cymbalta",
+      "type": "Rețetă"
+    },
+    {
+      "id": 47,
+      "name": "Methylphenidate",
+      "price": "32.0 LEI",
+      "img": " https://www.padagis.com/wp-content/uploads/2023/05/40J-carton-new2.png",
+      "description": "Metilfenidat 20mg, comprimate. Producător: Ritalin Ltd.",
+      "brand": "Ritalin",
+      "type": "Rețetă"
+    },
+    {
+      "id": 48,
+      "name": "Tramadol",
+      "price": "24.0 LEI",
+      "img": " https://john-martin.com.ar/wp-content/uploads/2019/06/Pack-TRAMADOL-comp.jpg",
+      "description": "Tramadol 50mg, comprimate. Producător: Ultram Pharmaceuticals.",
+      "brand": "Ultram",
+      "type": "Rețetă"
+    },
+    {
+      "id": 49,
+      "name": "Valacyclovir",
+      "price": "27.0 LEI",
+      "img": " https://www.camberpharma.com/wp-content/uploads/2020/08/Valacyclovir_500mg_30ct_bottle.jpg",
+      "description": "Valaciclovir 500mg, comprimate. Producător: Valtrex Ltd.",
+      "brand": "Valtrex",
+      "type": "Rețetă"
+    },
+    {
+      "id": 50,
+      "name": "Levofloxacin",
+      "price": "25.0 LEI",
+      "img": " https://vinmec-prod.s3.amazonaws.com/images/20220617_045533_030379_Levofloxacin-750.max-1800x1800.jpg",
+      "description": "Levofloxacină 500mg, comprimate. Producător: Levaquin Pharmaceuticals.",
+      "brand": "Levaquin",
+      "type": "Rețetă"
+    },
+
+    {
+      "id": 51,
+      "name": "NUROFEN portocale pentru copii 3 luni+",
+      "price": "19.5 LEI",
+      "img": "https://comenzi.farmaciatei.ro/gallery/15806/medium/nurofen-200mg-24-drajeuri-reckitt-benkiser-healthcare-8465.webp",
+      "description": "Nurofen, 200 mg, 24 drajeuri, Reckitt Benkiser.",
+      "brand": "Nurofen",
+      "type": "Fără rețetă"
+    }
+  ]
+}

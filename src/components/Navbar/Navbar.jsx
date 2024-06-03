@@ -6,6 +6,7 @@ import {
   NavbarContainer,
   ButtonDropdown,
   LinkContainerDesktop,
+  LogoContainer,
 } from "./Navbar.style";
 import { List, X } from "react-bootstrap-icons";
 import SearchBar from "./SearchBar";
@@ -29,7 +30,9 @@ function NavBar() {
 
   return (
     <NavbarContainer>
-      <Logo src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTIIHpz4dgcOywt6SNbvtXFpU5vcngmdKh_w&s"></Logo>
+      <LogoContainer to="/home">
+        <Logo src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTIIHpz4dgcOywt6SNbvtXFpU5vcngmdKh_w&s"></Logo>
+      </LogoContainer>
       <SearchBar></SearchBar>
       <LinkContainerDesktop>
         {routes.map((el, index) => (

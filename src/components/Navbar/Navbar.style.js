@@ -11,6 +11,10 @@ export const Title = styled.h1`
   color: ${WHITE_NEUTRAL};
 `;
 
+export const LogoContainer = styled(Link)`
+  display: inline-block;
+`;
+
 export const Logo = styled.img`
   width: 100px;
   height: 40px;
@@ -148,7 +152,7 @@ export const ButtonS = styled.button`
   cursor: pointer;
 
   &:hover {
-    background: ${DARK_GRAY};
+    background: ${DARK_GREEN};
     color: ${WHITE_NEUTRAL};
     border-radius: 8px;
   }

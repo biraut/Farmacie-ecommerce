@@ -9,6 +9,7 @@ import {
   NavLinks,
   NavLink,
 } from "./Navbar2.styled";
+import { Link } from "react-router-dom";
 
 function Navbar2() {
   const [displayDropdown, setDisplayDropdown] = useState(false);
@@ -24,7 +25,7 @@ function Navbar2() {
     <Nav>
       <NavContainer>
         <ProdContainer>
-          <ProdButton>&#9776; Produse</ProdButton>
+          <ProdButton to="/produse">&#9776; Produse</ProdButton>
           <ProdDropdown>
             <DropdownItem>MEDICAMENTE OTC</DropdownItem>
             <DropdownItem>MEDICAMENTE CU RETETA</DropdownItem>
@@ -38,13 +39,11 @@ function Navbar2() {
           </ProdDropdown>
         </ProdContainer>
         <NavLinks>
-          <NavLink href="#">Noutăți</NavLink>
-          <NavLink href="#">Promotii</NavLink>
-          <NavLink href="#">In trend</NavLink>
-          <NavLink href="#">Cariere</NavLink>
-          <NavLink href="#">Articole</NavLink>
-          <NavLink href="#">Farmacii</NavLink>
-          <NavLink href="#">Evenimente</NavLink>
+          <NavLink to="/noutati">Noutăți</NavLink>
+          <NavLink to="/promotii">Promotii</NavLink>
+          <NavLink to="/trend">In trend</NavLink>
+          <NavLink to="/articole">Articole</NavLink>
+          <NavLink to="evenimente">Evenimente</NavLink>
         </NavLinks>
       </NavContainer>
     </Nav>
