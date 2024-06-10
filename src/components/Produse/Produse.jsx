@@ -13,7 +13,7 @@ function Produse() {
         prods?.map((prod, index) => (
           <CardProdus
             key={prod.name + index}
-            name={"test"}
+            name={prod.name}
             img={prod.img}
             {...prod}
           />

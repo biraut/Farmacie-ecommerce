@@ -11,9 +11,9 @@ import {
   CartIcon,
 } from "./Produse.styled";
 
-function CardProdus({ img, description, brand, price, name }) {
+function CardProdus({ img, description, brand, price, name, id }) {
   return (
-    <CardContainer>
+    <CardContainer to={`/produs/${id}`}>
       <FavoriteButton>
         <span role="img" aria-label="Favorite">
           &#10084;&#65039;

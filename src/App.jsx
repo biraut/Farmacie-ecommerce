@@ -10,6 +10,7 @@ import Navbar2 from "./components/Navbar2/Navbar2";
 import CarouselComponent from "./components/Navbar2/Carousel";
 import { ContainerTable } from "./components/Navbar2/Navbar2.styled";
 import Produse from "./components/Produse/Produse";
+import ProdusPage from "./components/Produs/ProdusPage";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -25,6 +26,7 @@ function App() {
         <Route path="/home" element={<Home />} />
         <Route path="/" element={<Home />} />
         <Route path="/produse" element={<Produse />} />
+        <Route path="/produs/:id" element={<ProdusPage />} />
       </Routes>
       <Footer />
     </>

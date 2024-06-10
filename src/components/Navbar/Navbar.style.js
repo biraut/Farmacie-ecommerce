@@ -140,6 +140,7 @@ export const Input = styled.input`
   border-radius: 8px;
   width: 28vw;
   margin-right: 10px;
+  color: black;
 `;
 
 export const ButtonS = styled.button`
