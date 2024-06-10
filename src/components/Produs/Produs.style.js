@@ -155,3 +155,16 @@ export const AddToCartButton = styled.button`
 export const CartIcon = styled.span`
   margin-right: 5px;
 `;
+
+export const InfoContainer = styled.div`
+  max-width: 1200px;
+  margin: 20px 100px;
+  padding: 20px;
+  background-color: white;
+`;
+
+export const SectionTitle = styled.h2`
+  font-size: 1.5em;
+  margin-top: 20px;
+  color: #333;
+`;

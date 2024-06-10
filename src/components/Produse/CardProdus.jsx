@@ -11,7 +11,7 @@ import {
   CartIcon,
 } from "./Produse.styled";
 
-function CardProdus({ img, description, brand, price, name, id }) {
+function CardProdus({ img, titlu, brand, price, name, id }) {
   return (
     <CardContainer to={`/produs/${id}`}>
       <FavoriteButton>
@@ -20,7 +20,7 @@ function CardProdus({ img, description, brand, price, name, id }) {
         </span>
       </FavoriteButton>
       <Image src={img} alt="Product" />
-      <Description>{description}</Description>
+      <Description>{titlu}</Description>
       <Producer href="#">{brand}</Producer>
       <Price>{price}</Price>
       <AddToCartButton>

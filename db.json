@@ -5,9 +5,15 @@
       "name": "Paracetamol",
       "price": "15,00 LEI",
       "img": "https://comenzi.farmaciatei.ro/gallery/30928/medium/paracetamol-helcor-500-mg-20-comprimate-helcor-1869.webp",
-      "description": "Paracetamol 500mg, comprimate. Producător: Acetaminophen Inc.",
+      "description": "Lorem Ipsum Therapy este indicat în tratamentul simptomatic al durerilor de intensitate uşoară până la moderată, cu diferite localizări: dureri de cap, dureri de dinţi, dureri ale muşchilor sau articulaţiilor, dureri menstruale şi tratamentul simptomatic al febrei. Acest medicament este recomandat numai adulţilor şi adolescenţilor cu vârsta de 12 ani şi peste. Lorem Ipsum Therapy conţine lorem ipsum, un derivat de dolorum sit amet cu efect analgezic (ameliorează durerea) şi antipiretic (ajută la scăderea temperaturii corpului în caz de febră).",
+      "contraindicatii": "Nu utilizați Lorem Ipsum Therapy: dacă sunteţi alergic la lorem ipsum sau dolor sit amet (precursor al lorem ipsumului) sau la oricare dintre celelalte componente ale acestui medicament",
+      "precautii": "Înainte să utilizaţi Lorem Ipsum Therapy, adresaţi-vă medicului dumneavoastră sau farmacistului. Sarcina, alăptarea și fertilitatea:Dacă sunteți gravidă sau alăptați, credeți că ați putea fi gravidă sau intenționați să rămâneți gravidă, adresați-vă medicului sau farmacistului pentru recomandări înainte de a lua acest medicament. Dacă este necesar, Lorem Ipsum Therapy poate fi utilizat în timpul sarcinii. Trebuie să utilizați cea mai mică doză posibilă care ajută la reducerea durerii și/sau febrei și cât mai scurt timp posibil. Adresați-vă medicului dumneavoastră în cazul în care durerea și/sau febra nu scade sau dacă aveți nevoie să administrați mai des medicamentul. La doze terapeutice, pe termen scurt, medicamentul poate fi administrat în cursul sarcinii, însă administrarea se va face cu recomandare numai după evaluarea beneficiului terapeutic al mamei în raport cu riscul potenţial la făt. Lorem ipsum traversează placenta şi se excretă în laptele matern.",
+      "titlu": "Paracetamol 500mg, comprimate. Producător: Acetaminophen Inc.",
       "brand": "Acetaminophen",
-      "type": "Fără rețetă"
+      "type": "Fără rețetă",
+      "trend": true,
+      "noutati": false,
+      "promo": true
     },
     {
       "id": 2,
@@ -15,6 +21,9 @@
       "price": "20,00 LEI",
       "img": "https://comenzi.farmaciatei.ro/gallery/59174/ibuprofen-fiterman-50-mg-g-gel-50-g-fiterman-pharma-525.png",
       "description": "Ibuprofen 200mg, comprimate. Producător: Advil Co.",
+      "contraindicatii": "Nu utilizați Lorem Ipsum Therapy: dacă sunteţi alergic la lorem ipsum sau dolor sit amet (precursor al lorem ipsumului) sau la oricare dintre celelalte componente ale acestui medicament",
+      "precautii": "Înainte să utilizaţi Lorem Ipsum Therapy, adresaţi-vă medicului dumneavoastră sau farmacistului. Sarcina, alăptarea și fertilitatea:Dacă sunteți gravidă sau alăptați, credeți că ați putea fi gravidă sau intenționați să rămâneți gravidă, adresați-vă medicului sau farmacistului pentru recomandări înainte de a lua acest medicament. Dacă este necesar, Lorem Ipsum Therapy poate fi utilizat în timpul sarcinii. Trebuie să utilizați cea mai mică doză posibilă care ajută la reducerea durerii și/sau febrei și cât mai scurt timp posibil. Adresați-vă medicului dumneavoastră în cazul în care durerea și/sau febra nu scade sau dacă aveți nevoie să administrați mai des medicamentul. La doze terapeutice, pe termen scurt, medicamentul poate fi administrat în cursul sarcinii, însă administrarea se va face cu recomandare numai după evaluarea beneficiului terapeutic al mamei în raport cu riscul potenţial la făt. Lorem ipsum traversează placenta şi se excretă în laptele matern.",
+      "titlu": "Ibuprofen 200mg, comprimate. Producător: Advil Co.",
       "brand": "Advil",
       "type": "Fără rețetă"
     },
@@ -23,9 +32,13 @@
       "name": "Aspirin",
       "price": "18,50 LEI",
       "img": "https://comenzi.farmaciatei.ro/gallery/89478/medium/aspirina-organica-60-capsule-herbagetica-4241.webp",
+      "contraindicatii": "Nu utilizați Lorem Ipsum Therapy: dacă sunteţi alergic la lorem ipsum sau dolor sit amet (precursor al lorem ipsumului) sau la oricare dintre celelalte componente ale acestui medicament",
+      "precautii": "Înainte să utilizaţi Lorem Ipsum Therapy, adresaţi-vă medicului dumneavoastră sau farmacistului. Sarcina, alăptarea și fertilitatea:Dacă sunteți gravidă sau alăptați, credeți că ați putea fi gravidă sau intenționați să rămâneți gravidă, adresați-vă medicului sau farmacistului pentru recomandări înainte de a lua acest medicament. Dacă este necesar, Lorem Ipsum Therapy poate fi utilizat în timpul sarcinii. Trebuie să utilizați cea mai mică doză posibilă care ajută la reducerea durerii și/sau febrei și cât mai scurt timp posibil. Adresați-vă medicului dumneavoastră în cazul în care durerea și/sau febra nu scade sau dacă aveți nevoie să administrați mai des medicamentul. La doze terapeutice, pe termen scurt, medicamentul poate fi administrat în cursul sarcinii, însă administrarea se va face cu recomandare numai după evaluarea beneficiului terapeutic al mamei în raport cu riscul potenţial la făt. Lorem ipsum traversează placenta şi se excretă în laptele matern.",
       "description": "Aspirină 325mg, comprimate. Producător: Bayer AG.",
+      "titlu": "Aspirină 325mg, comprimate. Producător: Bayer AG.",
       "brand": "Bayer",
-      "type": "Fără rețetă"
+      "type": "Fără rețetă",
+      "promo": true
     },
     {
       "id": 4,
@@ -33,6 +46,9 @@
       "price": "30,00 LEI",
       "img": "https://www.lasanteca.com/userfiles/2018/12/AMOXICILINA-500MG-CAJA-POR-50-CAPSULAS-CON-BLISTER.jpg",
       "description": "Amoxicilină 500mg, capsule. Producător: Moxatag Pharmaceuticals.",
+      "contraindicatii": "Nu utilizați Lorem Ipsum Therapy: dacă sunteţi alergic la lorem ipsum sau dolor sit amet (precursor al lorem ipsumului) sau la oricare dintre celelalte componente ale acestui medicament",
+      "precautii": "Înainte să utilizaţi Lorem Ipsum Therapy, adresaţi-vă medicului dumneavoastră sau farmacistului. Sarcina, alăptarea și fertilitatea:Dacă sunteți gravidă sau alăptați, credeți că ați putea fi gravidă sau intenționați să rămâneți gravidă, adresați-vă medicului sau farmacistului pentru recomandări înainte de a lua acest medicament. Dacă este necesar, Lorem Ipsum Therapy poate fi utilizat în timpul sarcinii. Trebuie să utilizați cea mai mică doză posibilă care ajută la reducerea durerii și/sau febrei și cât mai scurt timp posibil. Adresați-vă medicului dumneavoastră în cazul în care durerea și/sau febra nu scade sau dacă aveți nevoie să administrați mai des medicamentul. La doze terapeutice, pe termen scurt, medicamentul poate fi administrat în cursul sarcinii, însă administrarea se va face cu recomandare numai după evaluarea beneficiului terapeutic al mamei în raport cu riscul potenţial la făt. Lorem ipsum traversează placenta şi se excretă în laptele matern.",
+      "titlu": "Amoxicilină 500mg, capsule. Producător: Moxatag Pharmaceuticals.",
       "brand": "Moxatag",
       "type": "Rețetă"
     },
@@ -42,6 +58,9 @@
       "price": "25,00 LEI",
       "img": " https://www.crescentpharma.com/wp-content/uploads/2017/08/Lisinopril-5mg-Tablets_28s-1.png",
       "description": "Lisinopril 10mg, comprimate. Producător: Prinivil Labs.",
+      "contraindicatii": "Nu utilizați Lorem Ipsum Therapy: dacă sunteţi alergic la lorem ipsum sau dolor sit amet (precursor al lorem ipsumului) sau la oricare dintre celelalte componente ale acestui medicament",
+      "precautii": "Înainte să utilizaţi Lorem Ipsum Therapy, adresaţi-vă medicului dumneavoastră sau farmacistului. Sarcina, alăptarea și fertilitatea:Dacă sunteți gravidă sau alăptați, credeți că ați putea fi gravidă sau intenționați să rămâneți gravidă, adresați-vă medicului sau farmacistului pentru recomandări înainte de a lua acest medicament. Dacă este necesar, Lorem Ipsum Therapy poate fi utilizat în timpul sarcinii. Trebuie să utilizați cea mai mică doză posibilă care ajută la reducerea durerii și/sau febrei și cât mai scurt timp posibil. Adresați-vă medicului dumneavoastră în cazul în care durerea și/sau febra nu scade sau dacă aveți nevoie să administrați mai des medicamentul. La doze terapeutice, pe termen scurt, medicamentul poate fi administrat în cursul sarcinii, însă administrarea se va face cu recomandare numai după evaluarea beneficiului terapeutic al mamei în raport cu riscul potenţial la făt. Lorem ipsum traversează placenta şi se excretă în laptele matern.",
+      "titlu": "Lisinopril 10mg, comprimate. Producător: Prinivil Labs.",
       "brand": "Prinivil",
       "type": "Rețetă"
     },
@@ -51,7 +70,11 @@
       "price": "22,50 LEI",
       "img": " https://api.evaro.com/wp-content/uploads/2023/09/Metformin-500mg-min.png",
       "description": "Metformină 500mg, comprimate. Producător: Glucophage Corp.",
+      "contraindicatii": "Nu utilizați Lorem Ipsum Therapy: dacă sunteţi alergic la lorem ipsum sau dolor sit amet (precursor al lorem ipsumului) sau la oricare dintre celelalte componente ale acestui medicament",
+      "precautii": "Înainte să utilizaţi Lorem Ipsum Therapy, adresaţi-vă medicului dumneavoastră sau farmacistului. Sarcina, alăptarea și fertilitatea:Dacă sunteți gravidă sau alăptați, credeți că ați putea fi gravidă sau intenționați să rămâneți gravidă, adresați-vă medicului sau farmacistului pentru recomandări înainte de a lua acest medicament. Dacă este necesar, Lorem Ipsum Therapy poate fi utilizat în timpul sarcinii. Trebuie să utilizați cea mai mică doză posibilă care ajută la reducerea durerii și/sau febrei și cât mai scurt timp posibil. Adresați-vă medicului dumneavoastră în cazul în care durerea și/sau febra nu scade sau dacă aveți nevoie să administrați mai des medicamentul. La doze terapeutice, pe termen scurt, medicamentul poate fi administrat în cursul sarcinii, însă administrarea se va face cu recomandare numai după evaluarea beneficiului terapeutic al mamei în raport cu riscul potenţial la făt. Lorem ipsum traversează placenta şi se excretă în laptele matern.",
+      "titlu": "Metformină 500mg, comprimate. Producător: Glucophage Corp.",
       "brand": "Glucophage",
+      "promo": true,
       "type": "Rețetă"
     },
     {
@@ -60,6 +83,9 @@
       "price": "28,00 LEI",
       "img": " https://www.meldinpharma.com/web/image/product.template/5305/image_1024?unique=ccfd778",
       "description": "Atorvastatin 20mg, comprimate. Producător: Lipitor Inc.",
+      "contraindicatii": "Nu utilizați Lorem Ipsum Therapy: dacă sunteţi alergic la lorem ipsum sau dolor sit amet (precursor al lorem ipsumului) sau la oricare dintre celelalte componente ale acestui medicament",
+      "precautii": "Înainte să utilizaţi Lorem Ipsum Therapy, adresaţi-vă medicului dumneavoastră sau farmacistului. Sarcina, alăptarea și fertilitatea:Dacă sunteți gravidă sau alăptați, credeți că ați putea fi gravidă sau intenționați să rămâneți gravidă, adresați-vă medicului sau farmacistului pentru recomandări înainte de a lua acest medicament. Dacă este necesar, Lorem Ipsum Therapy poate fi utilizat în timpul sarcinii. Trebuie să utilizați cea mai mică doză posibilă care ajută la reducerea durerii și/sau febrei și cât mai scurt timp posibil. Adresați-vă medicului dumneavoastră în cazul în care durerea și/sau febra nu scade sau dacă aveți nevoie să administrați mai des medicamentul. La doze terapeutice, pe termen scurt, medicamentul poate fi administrat în cursul sarcinii, însă administrarea se va face cu recomandare numai după evaluarea beneficiului terapeutic al mamei în raport cu riscul potenţial la făt. Lorem ipsum traversează placenta şi se excretă în laptele matern.",
+      "titlu": "Atorvastatin 20mg, comprimate. Producător: Lipitor Inc.",
       "brand": "Lipitor",
       "type": "Rețetă"
     },
@@ -69,6 +95,9 @@
       "price": "19,00 LEI",
       "img": " https://res.cloudinary.com/zava-www-uk/image/upload/fl_progressive/a_exif,f_auto,e_sharpen:100,c_fit,w_1080,h_810,q_70,fl_lossy/v1706806290/sd/uk/services-setup/acid-reflux/omeprazole/knh8cjncnq9z5axkil3h.png",
       "description": "Omeprazol 20mg, capsule. Producător: Prilosec Pharmaceuticals.",
+      "contraindicatii": "Nu utilizați Lorem Ipsum Therapy: dacă sunteţi alergic la lorem ipsum sau dolor sit amet (precursor al lorem ipsumului) sau la oricare dintre celelalte componente ale acestui medicament",
+      "precautii": "Înainte să utilizaţi Lorem Ipsum Therapy, adresaţi-vă medicului dumneavoastră sau farmacistului. Sarcina, alăptarea și fertilitatea:Dacă sunteți gravidă sau alăptați, credeți că ați putea fi gravidă sau intenționați să rămâneți gravidă, adresați-vă medicului sau farmacistului pentru recomandări înainte de a lua acest medicament. Dacă este necesar, Lorem Ipsum Therapy poate fi utilizat în timpul sarcinii. Trebuie să utilizați cea mai mică doză posibilă care ajută la reducerea durerii și/sau febrei și cât mai scurt timp posibil. Adresați-vă medicului dumneavoastră în cazul în care durerea și/sau febra nu scade sau dacă aveți nevoie să administrați mai des medicamentul. La doze terapeutice, pe termen scurt, medicamentul poate fi administrat în cursul sarcinii, însă administrarea se va face cu recomandare numai după evaluarea beneficiului terapeutic al mamei în raport cu riscul potenţial la făt. Lorem ipsum traversează placenta şi se excretă în laptele matern.",
+      "titlu": "Omeprazol 20mg, capsule. Producător: Prilosec Pharmaceuticals.",
       "brand": "Prilosec",
       "type": "Fără rețetă"
     },
@@ -78,7 +107,11 @@
       "price": "26,00 LEI",
       "img": " https://romeds.com/wp-content/uploads/2022/12/Simvastatin.png",
       "description": "Simvastatin 10mg, comprimate. Producător: Zocor Ltd.",
+      "contraindicatii": "Nu utilizați Lorem Ipsum Therapy: dacă sunteţi alergic la lorem ipsum sau dolor sit amet (precursor al lorem ipsumului) sau la oricare dintre celelalte componente ale acestui medicament",
+      "precautii": "Înainte să utilizaţi Lorem Ipsum Therapy, adresaţi-vă medicului dumneavoastră sau farmacistului. Sarcina, alăptarea și fertilitatea:Dacă sunteți gravidă sau alăptați, credeți că ați putea fi gravidă sau intenționați să rămâneți gravidă, adresați-vă medicului sau farmacistului pentru recomandări înainte de a lua acest medicament. Dacă este necesar, Lorem Ipsum Therapy poate fi utilizat în timpul sarcinii. Trebuie să utilizați cea mai mică doză posibilă care ajută la reducerea durerii și/sau febrei și cât mai scurt timp posibil. Adresați-vă medicului dumneavoastră în cazul în care durerea și/sau febra nu scade sau dacă aveți nevoie să administrați mai des medicamentul. La doze terapeutice, pe termen scurt, medicamentul poate fi administrat în cursul sarcinii, însă administrarea se va face cu recomandare numai după evaluarea beneficiului terapeutic al mamei în raport cu riscul potenţial la făt. Lorem ipsum traversează placenta şi se excretă în laptele matern.",
+      "titlu": "Simvastatin 10mg, comprimate. Producător: Zocor Ltd.",
       "brand": "Zocor",
+      "promo": true,
       "type": "Rețetă"
     },
     {
@@ -87,6 +120,9 @@
       "price": "24,50 LEI",
       "img": " https://fastcdn.pro/FileGallery/zagrosdarou.com/%D8%AF%D8%A7%D8%B1%D9%88%D9%87%D8%A7%DB%8C-%DA%A9%D8%A7%D9%87%D9%86%D8%AF%D9%87-%D9%81%D8%B4%D8%A7%D8%B1-%D8%AE%D9%88%D9%86/%D9%84%D9%88%D8%B2%D8%A7%D8%B1%D8%AA%D8%A7%D9%86_50_%D9%85%DB%8C%D9%84%DB%8C_%DA%AF%D8%B1%D9%85/3D-Box-Losartan.png",
       "description": "Losartan 50mg, comprimate. Producător: Cozaar Inc.",
+      "contraindicatii": "Nu utilizați Lorem Ipsum Therapy: dacă sunteţi alergic la lorem ipsum sau dolor sit amet (precursor al lorem ipsumului) sau la oricare dintre celelalte componente ale acestui medicament",
+      "precautii": "Înainte să utilizaţi Lorem Ipsum Therapy, adresaţi-vă medicului dumneavoastră sau farmacistului. Sarcina, alăptarea și fertilitatea:Dacă sunteți gravidă sau alăptați, credeți că ați putea fi gravidă sau intenționați să rămâneți gravidă, adresați-vă medicului sau farmacistului pentru recomandări înainte de a lua acest medicament. Dacă este necesar, Lorem Ipsum Therapy poate fi utilizat în timpul sarcinii. Trebuie să utilizați cea mai mică doză posibilă care ajută la reducerea durerii și/sau febrei și cât mai scurt timp posibil. Adresați-vă medicului dumneavoastră în cazul în care durerea și/sau febra nu scade sau dacă aveți nevoie să administrați mai des medicamentul. La doze terapeutice, pe termen scurt, medicamentul poate fi administrat în cursul sarcinii, însă administrarea se va face cu recomandare numai după evaluarea beneficiului terapeutic al mamei în raport cu riscul potenţial la făt. Lorem ipsum traversează placenta şi se excretă în laptele matern.",
+      "titlu": "Losartan 50mg, comprimate. Producător: Cozaar Inc.",
       "brand": "Cozaar",
       "type": "Rețetă"
     },
@@ -96,6 +132,9 @@
       "price": "20,00 LEI",
       "img": " https://www.mountainside-medical.com/cdn/shop/files/Albuterol-Sulfate-Inhalation-Aerosol-HFA-90-mcg-Inhaler-by-sandoz_700x700.jpg?v=1684851852",
       "description": "Albuterol 90mcg, inhalator. Producător: Ventolin Pharmaceuticals.",
+      "contraindicatii": "Nu utilizați Lorem Ipsum Therapy: dacă sunteţi alergic la lorem ipsum sau dolor sit amet (precursor al lorem ipsumului) sau la oricare dintre celelalte componente ale acestui medicament",
+      "precautii": "Înainte să utilizaţi Lorem Ipsum Therapy, adresaţi-vă medicului dumneavoastră sau farmacistului. Sarcina, alăptarea și fertilitatea:Dacă sunteți gravidă sau alăptați, credeți că ați putea fi gravidă sau intenționați să rămâneți gravidă, adresați-vă medicului sau farmacistului pentru recomandări înainte de a lua acest medicament. Dacă este necesar, Lorem Ipsum Therapy poate fi utilizat în timpul sarcinii. Trebuie să utilizați cea mai mică doză posibilă care ajută la reducerea durerii și/sau febrei și cât mai scurt timp posibil. Adresați-vă medicului dumneavoastră în cazul în care durerea și/sau febra nu scade sau dacă aveți nevoie să administrați mai des medicamentul. La doze terapeutice, pe termen scurt, medicamentul poate fi administrat în cursul sarcinii, însă administrarea se va face cu recomandare numai după evaluarea beneficiului terapeutic al mamei în raport cu riscul potenţial la făt. Lorem ipsum traversează placenta şi se excretă în laptele matern.",
+      "titlu": "Albuterol 90mcg, inhalator. Producător: Ventolin Pharmaceuticals.",
       "brand": "Ventolin",
       "type": "Rețetă"
     },
@@ -105,6 +144,9 @@
       "price": "23,00 LEI",
       "img": " https://www.camberpharma.com/wp-content/uploads/2021/11/Gabapentin_600mg_100ct.jpg",
       "description": "Gabapentin 300mg, capsule. Producător: Neurontin Labs.",
+      "contraindicatii": "Nu utilizați Lorem Ipsum Therapy: dacă sunteţi alergic la lorem ipsum sau dolor sit amet (precursor al lorem ipsumului) sau la oricare dintre celelalte componente ale acestui medicament",
+      "precautii": "Înainte să utilizaţi Lorem Ipsum Therapy, adresaţi-vă medicului dumneavoastră sau farmacistului. Sarcina, alăptarea și fertilitatea:Dacă sunteți gravidă sau alăptați, credeți că ați putea fi gravidă sau intenționați să rămâneți gravidă, adresați-vă medicului sau farmacistului pentru recomandări înainte de a lua acest medicament. Dacă este necesar, Lorem Ipsum Therapy poate fi utilizat în timpul sarcinii. Trebuie să utilizați cea mai mică doză posibilă care ajută la reducerea durerii și/sau febrei și cât mai scurt timp posibil. Adresați-vă medicului dumneavoastră în cazul în care durerea și/sau febra nu scade sau dacă aveți nevoie să administrați mai des medicamentul. La doze terapeutice, pe termen scurt, medicamentul poate fi administrat în cursul sarcinii, însă administrarea se va face cu recomandare numai după evaluarea beneficiului terapeutic al mamei în raport cu riscul potenţial la făt. Lorem ipsum traversează placenta şi se excretă în laptele matern.",
+      "titlu": "Gabapentin 300mg, capsule. Producător: Neurontin Labs.",
       "brand": "Neurontin",
       "type": "Rețetă"
     },
@@ -114,6 +156,9 @@
       "price": "27,50 LEI",
       "img": " https://www.crescentpharma.com/wp-content/uploads/2016/01/Sertraline-50mg-Film-coated-Tablets_28s_FF-1.png",
       "description": "Sertralină 50mg, comprimate. Producător: Zoloft Inc.",
+      "contraindicatii": "Nu utilizați Lorem Ipsum Therapy: dacă sunteţi alergic la lorem ipsum sau dolor sit amet (precursor al lorem ipsumului) sau la oricare dintre celelalte componente ale acestui medicament",
+      "precautii": "Înainte să utilizaţi Lorem Ipsum Therapy, adresaţi-vă medicului dumneavoastră sau farmacistului. Sarcina, alăptarea și fertilitatea:Dacă sunteți gravidă sau alăptați, credeți că ați putea fi gravidă sau intenționați să rămâneți gravidă, adresați-vă medicului sau farmacistului pentru recomandări înainte de a lua acest medicament. Dacă este necesar, Lorem Ipsum Therapy poate fi utilizat în timpul sarcinii. Trebuie să utilizați cea mai mică doză posibilă care ajută la reducerea durerii și/sau febrei și cât mai scurt timp posibil. Adresați-vă medicului dumneavoastră în cazul în care durerea și/sau febra nu scade sau dacă aveți nevoie să administrați mai des medicamentul. La doze terapeutice, pe termen scurt, medicamentul poate fi administrat în cursul sarcinii, însă administrarea se va face cu recomandare numai după evaluarea beneficiului terapeutic al mamei în raport cu riscul potenţial la făt. Lorem ipsum traversează placenta şi se excretă în laptele matern.",
+      "titlu": "Sertralină 50mg, comprimate. Producător: Zoloft Inc.",
       "brand": "Zoloft",
       "type": "Rețetă"
     },
@@ -123,7 +168,11 @@
       "price": "21,00 LEI",
       "img": " https://shopsuki.ph/cdn/shop/files/104396661_2_800x.png?v=1687252616",
       "description": "Furosemid 40mg, comprimate. Producător: Lasix Pharmaceuticals.",
+      "contraindicatii": "Nu utilizați Lorem Ipsum Therapy: dacă sunteţi alergic la lorem ipsum sau dolor sit amet (precursor al lorem ipsumului) sau la oricare dintre celelalte componente ale acestui medicament",
+      "precautii": "Înainte să utilizaţi Lorem Ipsum Therapy, adresaţi-vă medicului dumneavoastră sau farmacistului. Sarcina, alăptarea și fertilitatea:Dacă sunteți gravidă sau alăptați, credeți că ați putea fi gravidă sau intenționați să rămâneți gravidă, adresați-vă medicului sau farmacistului pentru recomandări înainte de a lua acest medicament. Dacă este necesar, Lorem Ipsum Therapy poate fi utilizat în timpul sarcinii. Trebuie să utilizați cea mai mică doză posibilă care ajută la reducerea durerii și/sau febrei și cât mai scurt timp posibil. Adresați-vă medicului dumneavoastră în cazul în care durerea și/sau febra nu scade sau dacă aveți nevoie să administrați mai des medicamentul. La doze terapeutice, pe termen scurt, medicamentul poate fi administrat în cursul sarcinii, însă administrarea se va face cu recomandare numai după evaluarea beneficiului terapeutic al mamei în raport cu riscul potenţial la făt. Lorem ipsum traversează placenta şi se excretă în laptele matern.",
+      "titlu": "Furosemid 40mg, comprimate. Producător: Lasix Pharmaceuticals.",
       "brand": "Lasix",
+      "promo": true,
       "type": "Rețetă"
     },
     {
@@ -132,6 +181,9 @@
       "price": "22,00 LEI",
       "img": " https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbIV8eg14olKfj47dZgCWAEeexd2xu8vcKXw&",
       "description": "Hidroclorotiazidă 25mg, comprimate. Producător: Microzide Corp.",
+      "contraindicatii": "Nu utilizați Lorem Ipsum Therapy: dacă sunteţi alergic la lorem ipsum sau dolor sit amet (precursor al lorem ipsumului) sau la oricare dintre celelalte componente ale acestui medicament",
+      "precautii": "Înainte să utilizaţi Lorem Ipsum Therapy, adresaţi-vă medicului dumneavoastră sau farmacistului. Sarcina, alăptarea și fertilitatea:Dacă sunteți gravidă sau alăptați, credeți că ați putea fi gravidă sau intenționați să rămâneți gravidă, adresați-vă medicului sau farmacistului pentru recomandări înainte de a lua acest medicament. Dacă este necesar, Lorem Ipsum Therapy poate fi utilizat în timpul sarcinii. Trebuie să utilizați cea mai mică doză posibilă care ajută la reducerea durerii și/sau febrei și cât mai scurt timp posibil. Adresați-vă medicului dumneavoastră în cazul în care durerea și/sau febra nu scade sau dacă aveți nevoie să administrați mai des medicamentul. La doze terapeutice, pe termen scurt, medicamentul poate fi administrat în cursul sarcinii, însă administrarea se va face cu recomandare numai după evaluarea beneficiului terapeutic al mamei în raport cu riscul potenţial la făt. Lorem ipsum traversează placenta şi se excretă în laptele matern.",
+      "titlu": "Hidroclorotiazidă 25mg, comprimate. Producător: Microzide Corp.",
       "brand": "Microzide",
       "type": "Rețetă"
     },
@@ -141,6 +193,7 @@
       "price": "25,50 LEI",
       "img": " https://farmaciaprofarm.ro/media/catalog/product/cache/4/image/9df78eab33525d08d6e5fb8d27136e95/z/o/zolpidem-atb-600.jpg",
       "description": "Zolpidem 10mg, comprimate. Producător: Ambien Pharmaceuticals.",
+      "titlu": "Zolpidem 10mg, comprimate. Producător: Ambien Pharmaceuticals.",
       "brand": "Ambien",
       "type": "Rețetă"
     },
@@ -150,6 +203,7 @@
       "price": "24,00 LEI",
       "img": " https://www.crescentpharma.com/wp-content/uploads/2023/08/Citalopram-10mg-Film-coated-Tablets_FF.png",
       "description": "Citalopram 20mg, comprimate. Producător: Celexa Inc.",
+      "titlu": "Citalopram 20mg, comprimate. Producător: Celexa Inc.",
       "brand": "Celexa",
       "type": "Rețetă"
     },
@@ -159,6 +213,7 @@
       "price": "23,50 LEI",
       "img": " https://welzo.com/cdn/shop/articles/montelukast-uses-side-effects-and-interactions-welzo_081f9b33-d8fc-4072-9b8f-22492b535d80.png?v=1710941586",
       "description": "Montelukast 10mg, comprimate. Producător: Singulair Corp.",
+      "titlu": "Montelukast 10mg, comprimate. Producător: Singulair Corp.",
       "brand": "Singulair",
       "type": "Rețetă"
     },
@@ -168,6 +223,7 @@
       "price": "21,50 LEI",
       "img": " https://www.krishlarpharma.com/wp-content/uploads/2019/12/KRITZOL-40-tablet.jpg",
       "description": "Pantoprazol 40mg, comprimate. Producător: Protonix Ltd.",
+      "titlu": "Pantoprazol 40mg, comprimate. Producător: Protonix Ltd.",
       "brand": "Protonix",
       "type": "Rețetă"
     },
@@ -177,6 +233,7 @@
       "price": "28,50 LEI",
       "img": " https://chedrauimx.vtexassets.com/arquivos/ids/28218526/7501349024366_00.jpg?v=638470597544900000",
       "description": "Escitalopram 10mg, comprimate. Producător: Lexapro Pharmaceuticals.",
+      "titlu": "Escitalopram 10mg, comprimate. Producător: Lexapro Pharmaceuticals.",
       "brand": "Lexapro",
       "type": "Rețetă"
     },
@@ -186,7 +243,9 @@
       "price": "18,00 LEI",
       "img": " https://www.xalmeds.com/cdn/shop/files/BBA7C6AF-3165-4F01-AC7C-BF1C5B7A4E8E.jpg?v=1698222761",
       "description": "Prednison 20mg, comprimate. Producător: Deltasone Inc.",
+      "titlu": "Prednison 20mg, comprimate. Producător: Deltasone Inc.",
       "brand": "Deltasone",
+      "promo": true,
       "type": "Rețetă"
     },
     {
@@ -195,6 +254,7 @@
       "price": "19,50 LEI",
       "img": " https://www.buy-pharma.md/img/uploads/1665-Trazonil-50-Generic-Desyrel-Trazodone-50mg-Tablet.jpg",
       "description": "Trazodonă 50mg, comprimate. Producător: Desyrel Corp.",
+      "titlu": "Trazodonă 50mg, comprimate. Producător: Desyrel Corp.",
       "brand": "Desyrel",
       "type": "Rețetă"
     },
@@ -204,6 +264,7 @@
       "price": "22,00 LEI",
       "img": " https://farmaciaprofarm.ro/media/catalog/product/M/E/MELOXICAM_7.5mg_3D75e4-600.jpg",
       "description": "Meloxicam 15mg, comprimate. Producător: Mobic Pharmaceuticals.",
+      "titlu": "Meloxicam 15mg, comprimate. Producător: Mobic Pharmaceuticals.",
       "brand": "Mobic",
       "type": "Rețetă"
     },
@@ -213,6 +274,7 @@
       "price": "26,50 LEI",
       "img": " https://southstardrug.com.ph/cdn/shop/products/22020_1_800x.jpg?v=1666750837",
       "description": "Clopidogrel 75mg, comprimate. Producător: Plavix Inc.",
+      "titlu": "Clopidogrel 75mg, comprimate. Producător: Plavix Inc.",
       "brand": "Plavix",
       "type": "Rețetă"
     },
@@ -222,6 +284,7 @@
       "price": "20,00 LEI",
       "img": " https://www.adiuvopharma.com/wp-content/uploads/2022/05/Render15.png",
       "description": "Atenolol 50mg, comprimate. Producător: Tenormin Labs.",
+      "titlu": "Atenolol 50mg, comprimate. Producător: Tenormin Labs.",
       "brand": "Tenormin",
       "type": "Rețetă"
     },
@@ -231,6 +294,7 @@
       "price": "27,00 LEI",
       "img": " https://www.medpont.ro/wp-content/uploads/2019/06/Alprazolam.jpg",
       "description": "Alprazolam 1mg, comprimate. Producător: Xanax Pharmaceuticals.",
+      "titlu": "Alprazolam 1mg, comprimate. Producător: Xanax Pharmaceuticals.",
       "brand": "Xanax",
       "type": "Rețetă"
     },
@@ -240,6 +304,7 @@
       "price": "23,50 LEI",
       "img": " https://res.cloudinary.com/zava-www-uk/image/upload/fl_progressive/a_exif,f_auto,e_sharpen:100,c_fit,w_1080,h_810,q_70,fl_lossy/v1707298988/sd/uk/services-setup/high-blood-pressure-unit/amlodipine/aglli6kztlzk3s8fwajd.png",
       "description": "Amlodipină 5mg, comprimate. Producător: Norvasc Corp.",
+      "titlu": "Amlodipină 5mg, comprimate. Producător: Norvasc Corp.",
       "brand": "Norvasc",
       "type": "Rețetă"
     },
@@ -249,7 +314,9 @@
       "price": "24,00 LEI",
       "img": " https://farmacia-abc.ro/wp-content/uploads/2017/03/DICLOFENAC-50-MG-X-20-CP-TERAPIA.jpg",
       "description": "Diclofenac 50mg, gel. Producător: Voltaren Pharmaceuticals.",
+      "titlu": "Diclofenac 50mg, gel. Producător: Voltaren Pharmaceuticals.",
       "brand": "Voltaren",
+      "promo": true,
       "type": "Rețetă"
     },
     {
@@ -258,6 +325,7 @@
       "price": "22,50 LEI",
       "img": " https://online-pharmacy4u.co.uk/cdn/shop/products/allopurinol-100mg-tablets-253726_1200x1200.jpg?v=1649266561",
       "description": "Allopurinol 300mg, comprimate. Producător: Zyloprim Ltd.",
+      "titlu": "Allopurinol 300mg, comprimate. Producător: Zyloprim Ltd.",
       "brand": "Zyloprim",
       "type": "Rețetă"
     },
@@ -267,6 +335,7 @@
       "price": "24,50 LEI",
       "img": " https://www.mountainside-medical.com/cdn/shop/files/Metoprolol-Tartrate-for-Injection-5-ml-x-10-per-box.jpg?v=1686226233",
       "description": "Metoprolol 50mg, comprimate. Producător: Lopressor Inc.",
+      "titlu": "Metoprolol 50mg, comprimate. Producător: Lopressor Inc.",
       "brand": "Lopressor",
       "type": "Rețetă"
     },
@@ -276,6 +345,7 @@
       "price": "23,00 LEI",
       "img": " https://5.imimg.com/data5/SELLER/Default/2021/6/KT/TJ/LE/3184985/crisdilol12-5.jpg",
       "description": "Carvedilol 12.5mg, comprimate. Producător: Coreg Pharmaceuticals.",
+      "titlu": "Carvedilol 12.5mg, comprimate. Producător: Coreg Pharmaceuticals.",
       "brand": "Coreg",
       "type": "Rețetă"
     },
@@ -285,6 +355,7 @@
       "price": "25,00 LEI",
       "img": "https://miro.medium.com/v2/resize:fit:463/1*AQT02HC_kGcxhe_LQCyLug.png",
       "description": "Warfarină 5mg, comprimate. Producător: Coumadin Inc.",
+      "titlu": "Warfarină 5mg, comprimate. Producător: Coumadin Inc.",
       "brand": "Coumadin",
       "type": "Rețetă"
     },
@@ -294,6 +365,7 @@
       "price": "21,00 LEI",
       "img": " https://www.solcohealthcare.com/wp-content/uploads/2019/08/Cyclobenzaprine.jpg",
       "description": "Cyclobenzaprină 10mg, comprimate. Producător: Flexeril Ltd.",
+      "titlu": "Cyclobenzaprină 10mg, comprimate. Producător: Flexeril Ltd.",
       "brand": "Flexeril",
       "type": "Rețetă"
     },
@@ -303,7 +375,9 @@
       "price": "26,50 LEI",
       "img": " https://www.morningsidepharm.com/wp-content/uploads/2018/08/Fluoxetine.jpg",
       "description": "Fluoxetină 20mg, capsule. Producător: Prozac Pharmaceuticals.",
+      "titlu": "Fluoxetină 20mg, capsule. Producător: Prozac Pharmaceuticals.",
       "brand": "Prozac",
+      "promo": true,
       "type": "Rețetă"
     },
     {
@@ -312,6 +386,7 @@
       "price": "18,00 LEI",
       "img": " https://www.soin-et-nature.com/media/cache/shop_product_large_thumbnail/products/3/2/4/8/5/32485.jpg",
       "description": "Cetirizină 10mg, comprimate. Producător: Zyrtec Ltd.",
+      "titlu": "Cetirizină 10mg, comprimate. Producător: Zyrtec Ltd.",
       "brand": "Zyrtec",
       "type": "Fără rețetă"
     },
@@ -321,6 +396,7 @@
       "price": "27,00 LEI",
       "img": " https://www.morningsidepharm.com/wp-content/uploads/2021/07/Venlafaxine-1.jpg",
       "description": "Venlafaxină 75mg, comprimate. Producător: Effexor Inc.",
+      "titlu": "Venlafaxină 75mg, comprimate. Producător: Effexor Inc.",
       "brand": "Effexor",
       "type": "Rețetă"
     },
@@ -330,6 +406,7 @@
       "price": "25,00 LEI",
       "img": " https://www.morningsidepharm.com/wp-content/uploads/2022/03/Lorazepam.jpg",
       "description": "Lorazepam 1mg, comprimate. Producător: Ativan Ltd.",
+      "titlu": "Lorazepam 1mg, comprimate. Producător: Ativan Ltd.",
       "brand": "Ativan",
       "type": "Rețetă"
     },
@@ -339,6 +416,7 @@
       "price": "28,00 LEI",
       "img": " https://www.eridanushealth.com/wp-content/uploads/2017/02/eriquito-50.jpg",
       "description": "Quetiapină 100mg, comprimate. Producător: Seroquel Pharmaceuticals.",
+      "titlu": "Quetiapină 100mg, comprimate. Producător: Seroquel Pharmaceuticals.",
       "brand": "Seroquel",
       "type": "Rețetă"
     },
@@ -348,6 +426,7 @@
       "price": "22,00 LEI",
       "img": " https://s.turbifycdn.com/aah/yhst-135855760451349/glipizide-10mg-100-tabs-manufacture-may-vary-42.jpg",
       "description": "Glipizidă 5mg, comprimate. Producător: Glucotrol Inc.",
+      "titlu": "Glipizidă 5mg, comprimate. Producător: Glucotrol Inc.",
       "brand": "Glucotrol",
       "type": "Rețetă"
     },
@@ -357,6 +436,7 @@
       "price": "23,50 LEI",
       "img": " https://5.imimg.com/data5/SELLER/Default/2023/10/355936321/AQ/YV/KP/201706771/clonazepam-0-5-mg-tablet-10x10.jpg",
       "description": "Clonazepam 1mg, comprimate. Producător: Klonopin Ltd.",
+      "titlu": "Clonazepam 1mg, comprimate. Producător: Klonopin Ltd.",
       "brand": "Klonopin",
       "type": "Rețetă"
     },
@@ -366,6 +446,7 @@
       "price": "20,00 LEI",
       "img": " https://d2gdaxkudte5p.cloudfront.net/system/images/S47000-25.0.jpg",
       "description": "Sulfametoxazol 400mg/Trimethoprim 80mg, comprimate. Producător: Bactrim Pharmaceuticals.",
+      "titlu": "Sulfametoxazol 400mg/Trimethoprim 80mg, comprimate. Producător: Bactrim Pharmaceuticals",
       "brand": "Bactrim",
       "type": "Rețetă"
     },
@@ -375,6 +456,7 @@
       "price": "22,50 LEI",
       "img": " https://pharmacymayfair.co.uk/wp-content/uploads/pharmacy_mentor/importImages/propranolol.jpeg",
       "description": "Propranolol 40mg, comprimate. Producător: Inderal Inc.",
+      "titlu": "Propranolol 40mg, comprimate. Producător: Inderal Inc",
       "brand": "Inderal",
       "type": "Rețetă"
     },
@@ -384,6 +466,7 @@
       "price": "23,00 LEI",
       "img": " https://medsrus.co.uk/image/cache/catalog/old_site/104/doxycycline-capsules-100mg-1-800x800.jpg",
       "description": "Doxiciclină 100mg, capsule. Producător: Vibramycin Ltd.",
+      "titlu": "Doxiciclină 100mg, capsule. Producător: Vibramycin Ltd",
       "brand": "Vibramycin",
       "type": "Rețetă"
     },
@@ -393,6 +476,7 @@
       "price": "30,00 LEI",
       "img": " https://www.drugs.com/pro/images/a5162476-1217-41c0-bc7e-0a0f123f069f/oxy-05.jpg",
       "description": "Oxycodonă 10mg, comprimate. Producător: OxyContin Pharmaceuticals.",
+      "titlu": "Oxycodonă 10mg, comprimate. Producător: OxyContin Pharmaceuticals",
       "brand": "OxyContin",
       "type": "Rețetă"
     },
@@ -402,6 +486,7 @@
       "price": "25,00 LEI",
       "img": " https://fidson.com/wp-content/uploads/2022/09/Ciprofloxacin-500.png",
       "description": "Ciprofloxacină 500mg, comprimate. Producător: Cipro Inc.",
+      "titlu": "Ciprofloxacină 500mg, comprimate. Producător: Cipro Inc",
       "brand": "Cipro",
       "type": "Rețetă"
     },
@@ -411,6 +496,7 @@
       "price": "28,00 LEI",
       "img": " https://www.eridanushealth.com/wp-content/uploads/2020/07/Duzin-30.jpg",
       "description": "Duloxetină 60mg, capsule. Producător: Cymbalta Pharmaceuticals.",
+      "titlu": "Duloxetină 60mg, capsule. Producător: Cymbalta Pharmaceuticals",
       "brand": "Cymbalta",
       "type": "Rețetă"
     },
@@ -420,6 +506,7 @@
       "price": "32,00 LEI",
       "img": " https://www.padagis.com/wp-content/uploads/2023/05/40J-carton-new2.png",
       "description": "Metilfenidat 20mg, comprimate. Producător: Ritalin Ltd.",
+      "titlu": "Metilfenidat 20mg, comprimate. Producător: Ritalin Ltd",
       "brand": "Ritalin",
       "type": "Rețetă"
     },
@@ -429,6 +516,7 @@
       "price": "24,00 LEI",
       "img": " https://john-martin.com.ar/wp-content/uploads/2019/06/Pack-TRAMADOL-comp.jpg",
       "description": "Tramadol 50mg, comprimate. Producător: Ultram Pharmaceuticals.",
+      "titlu": "Tramadol 50mg, comprimate. Producător: Ultram Pharmaceuticals",
       "brand": "Ultram",
       "type": "Rețetă"
     },
@@ -438,6 +526,7 @@
       "price": "27,00 LEI",
       "img": " https://www.camberpharma.com/wp-content/uploads/2020/08/Valacyclovir_500mg_30ct_bottle.jpg",
       "description": "Valaciclovir 500mg, comprimate. Producător: Valtrex Ltd.",
+      "titlu": "Valaciclovir 500mg, comprimate. Producător: Valtrex Ltd",
       "brand": "Valtrex",
       "type": "Rețetă"
     },
@@ -447,6 +536,7 @@
       "price": "25,00 LEI",
       "img": " https://vinmec-prod.s3.amazonaws.com/images/20220617_045533_030379_Levofloxacin-750.max-1800x1800.jpg",
       "description": "Levofloxacină 500mg, comprimate. Producător: Levaquin Pharmaceuticals.",
+      "titlu": "Levofloxacină 500mg, comprimate. Producător: Levaquin Pharmaceuticals",
       "brand": "Levaquin",
       "type": "Rețetă"
     },
@@ -457,6 +547,7 @@
       "price": "19,50 LEI",
       "img": "https://comenzi.farmaciatei.ro/gallery/15806/medium/nurofen-200mg-24-drajeuri-reckitt-benkiser-healthcare-8465.webp",
       "description": "Nurofen, 200 mg, 24 drajeuri, Reckitt Benkiser.",
+      "titlu": "Nurofen, 200 mg, 24 drajeuri, Reckitt Benkiser",
       "brand": "Nurofen",
       "type": "Fără rețetă"
     }

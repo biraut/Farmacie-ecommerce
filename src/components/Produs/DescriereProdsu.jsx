@@ -2,17 +2,11 @@ import { useEffect } from "react";
 import { useParams } from "react-router-dom";
 import useFetchProd from "../../hooks/useFetchProd";
 import useLocalStorage from "../../hooks/useLocalStorage";
-import {
-  FavoriteButton,
-  Description,
-  Producer,
-  Price,
-  AddToCartButton,
-  CartIcon,
-} from "../Produse/Produse.styled";
-import { ProdusContainer, ProdusImgSingle, TitluProdus } from "./Produs.style";
+import { InfoContainer, SectionTitle } from "./Produs.style";
+import { TitluProdus } from "./Produs.style";
+import { Description } from "../Produse/Produse.styled";
 
-function Produs() {
+function DescriereProdus() {
   const { id } = useParams(); //am extras doar id din {id: 1}
   const { prods: produs, error, loading } = useFetchProd("/" + id);
   const { isLocalDataEmpty, localData, handleLocalData } =
@@ -31,18 +25,22 @@ function Produs() {
   }, [localData, isLocalDataEmpty, produs]);
 
   return (
-    <ProdusContainer>
+    <InfoContainer>
       {loading && !error && <div>Loading...</div>}
       {error && <div>Error on getting data, Server is down </div>}
       {produs && (
         <>
-          <TitluProdus>{produs.titlu}</TitluProdus>
-          <ProdusImgSingle src={produs.img} alt="Product" />
-          <FavoriteButton>&#10084;&#65039;</FavoriteButton>
+          <SectionTitle>{produs.titlu}</SectionTitle>
+          <TitluProdus>Descriere:</TitluProdus>
+          <Description>{produs.description}</Description>
+          <TitluProdus>Contraindicații:</TitluProdus>
+          <Description>{produs.contraindicatii}</Description>
+          <TitluProdus>Precautii:</TitluProdus>
+          <Description>{produs.precautii}</Description>
         </>
       )}
-    </ProdusContainer>
+    </InfoContainer>
   );
 }
 
-export default Produs;
+export default DescriereProdus;

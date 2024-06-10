@@ -28,7 +28,7 @@ export const FavoriteButton = styled.button`
 `;
 
 export const Description = styled.p`
-  font-size: 14px;
+  font-size: 16px;
   margin-top: 10px;
   color: black;
 `;

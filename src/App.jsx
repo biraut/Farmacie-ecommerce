@@ -11,6 +11,7 @@ import CarouselComponent from "./components/Navbar2/Carousel";
 import { ContainerTable } from "./components/Navbar2/Navbar2.styled";
 import Produse from "./components/Produse/Produse";
 import ProdusPage from "./components/Produs/ProdusPage";
+import Promo from "./components/Promotii/Promotii";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -19,14 +20,13 @@ function App() {
     <>
       <NavBar />
       <Navbar2 />
-      <ContainerTable>
-        <CarouselComponent />
-      </ContainerTable>
+      <ContainerTable></ContainerTable>
       <Routes>
         <Route path="/home" element={<Home />} />
         <Route path="/" element={<Home />} />
         <Route path="/produse" element={<Produse />} />
         <Route path="/produs/:id" element={<ProdusPage />} />
+        <Route path="/promotii" element={<Promo />} />
       </Routes>
       <Footer />
     </>
