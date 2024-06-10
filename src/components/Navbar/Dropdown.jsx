@@ -1,6 +1,6 @@
 import LinkNav from "./LinkNav";
-import { routes } from "./navbar";
-import { DropdownContainer, LinkContainer } from "../components/navbar.style";
+import { routes } from "./Navbar";
+import { DropdownContainer, LinkContainer } from "./Navbar.style";
 
 function Dropdown({ functieDeApelatinDropdown }) {
   return (

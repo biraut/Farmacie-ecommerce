@@ -1,18 +1,20 @@
 import { useState } from "react";
 import Dropdown from "./Dropdown";
-import Form from 'react-bootstrap/Form';
 import LinkNav from "./LinkNav";
 import {
   Logo,
   NavbarContainer,
   ButtonDropdown,
   LinkContainerDesktop,
-} from "../components/navbar.style";
+  LogoContainer,
+} from "./Navbar.style";
+import { List, X } from "react-bootstrap-icons";
+import SearchBar from "./SearchBar";
 
 export const routes = [
-  { title: "Favorite", href: "Acasa" },
-  { title: "Cosul meu", href: "Promotii" },
-  { title: "Contul Meu", href: "Farmacii" },
+  { title: "Favorite", href: "favorite" },
+  { title: "Cosul meu", href: "cos" },
+  { title: "Contul meu", href: "cont" },
 ];
 
 function NavBar() {
@@ -28,15 +30,10 @@ function NavBar() {
 
   return (
     <NavbarContainer>
-      <Logo src="https://logowik.com/content/uploads/images/cat8600.jpg"></Logo>
-      <Form className="d-flex">
-            <Form.Control
-              type="search"
-              placeholder="Ce vrei sa cauti astazi?"
-              className="me-2"
-              aria-label="Search"
-            />
-          </Form>
+      <LogoContainer to="/home">
+        <Logo src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTIIHpz4dgcOywt6SNbvtXFpU5vcngmdKh_w&s"></Logo>
+      </LogoContainer>
+      <SearchBar></SearchBar>
       <LinkContainerDesktop>
         {routes.map((el, index) => (
           <LinkNav
@@ -48,7 +45,7 @@ function NavBar() {
         ))}
       </LinkContainerDesktop>
       <ButtonDropdown onClick={() => handleDisplayDropdown()}>
-        Click me!
+        {!displayDropdown ? <List size={40} /> : <X size={40} />}
       </ButtonDropdown>
       {displayDropdown && <Dropdown functieDeApelatinDropdown={handleClick} />}
     </NavbarContainer>
