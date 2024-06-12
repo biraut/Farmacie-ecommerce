@@ -12,9 +12,9 @@ import { List, X } from "react-bootstrap-icons";
 import SearchBar from "./SearchBar";
 
 export const routes = [
-  { title: "Favorite", href: "favorite" },
-  { title: "Cosul meu", href: "cos" },
-  { title: "Contul meu", href: "cont" },
+  { title: "Favorite", href: "/favorite" },
+  { title: "Cosul meu", href: "/cos" },
+  { title: "Contul meu", href: "/cont" },
 ];
 
 function NavBar() {

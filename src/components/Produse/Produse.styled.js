@@ -70,6 +70,6 @@ export const CartIcon = styled.span`
 
 export const ProduseContainer = styled.div`
   display: flex;
-  padding: 450px 250px 0px;
+  padding: 50px 250px 0px;
   flex-wrap: wrap;
 `;

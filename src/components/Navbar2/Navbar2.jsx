@@ -12,11 +12,7 @@ import {
 import { Link } from "react-router-dom";
 
 function Navbar2() {
-  const [displayDropdown, setDisplayDropdown] = useState(false);
-
-  const handleClick = (titlu) => {
-    console.log("Esti pe titlu-> ", titlu);
-  };
+  const [displayDropdown, setDisplayDropdown] = useState(true);
 
   const handleDisplayDropdown = () => {
     setDisplayDropdown(!displayDropdown);
@@ -25,8 +21,10 @@ function Navbar2() {
     <Nav>
       <NavContainer>
         <ProdContainer>
-          <ProdButton to="/produse">&#9776; Produse</ProdButton>
-          <ProdDropdown>
+          <ProdButton onClick={handleDisplayDropdown}>
+            &#9776; Produse
+          </ProdButton>
+          <ProdDropdown isVisible={displayDropdown}>
             <DropdownItem>MEDICAMENTE OTC</DropdownItem>
             <DropdownItem>MEDICAMENTE CU RETETA</DropdownItem>
             <DropdownItem>DISPOZITIVE MEDICALE</DropdownItem>
@@ -35,7 +33,9 @@ function Navbar2() {
             <DropdownItem>INGRIJIRE PERSONALA</DropdownItem>
             <DropdownItem>DIETA SI WELLNESS</DropdownItem>
             <DropdownItem>VIATA SEXUALA</DropdownItem>
-            <DropdownItem>VET</DropdownItem>
+            <DropdownItem to="/produse" onClick={handleDisplayDropdown}>
+              TOATE PRODUSELE
+            </DropdownItem>
           </ProdDropdown>
         </ProdContainer>
         <NavLinks>

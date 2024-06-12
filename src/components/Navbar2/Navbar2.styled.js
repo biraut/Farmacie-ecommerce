@@ -40,7 +40,7 @@ export const ProdButton = styled(Link)`
 `;
 
 export const ProdDropdown = styled.div`
-  display: flex;
+  display: ${(props) => (props.isVisible ? "block" : "none")};
   flex-direction: column;
   position: absolute;
   background-color: #f8f9fa;
@@ -51,14 +51,19 @@ export const ProdDropdown = styled.div`
   width: 17vw;
 `;
 
-export const DropdownItem = styled.button`
+export const DropdownItem = styled(Link)`
   background: none;
-  height: 45px;
+  width: 15vw;
   color: black;
+  padding: 10px 20px;
+  text-decoration: none;
   border: none;
-  padding: 10px 20px 10px 80px;
-  text-align: start;
+  border-radius: 5px;
   cursor: pointer;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
   &:hover {
     background-color: #ddd;

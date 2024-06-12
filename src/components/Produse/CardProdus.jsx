@@ -10,10 +10,18 @@ import {
   AddToCartButton,
   CartIcon,
 } from "./Produse.styled";
+import { CartContext } from "../../store/context";
+import { useContext } from "react";
+import { addToCart, removeFromCart } from "../../store/actions";
 
 function CardProdus({ img, titlu, brand, price, name, id }) {
+  const { dispatchCart } = useContext(CartContext);
+
+  const handleAddCart = (id, name) => {
+    dispatchCart(addToCart(id, name));
+  };
   return (
-    <CardContainer to={`/produs/${id}`}>
+    <CardContainer>
       <FavoriteButton>
         <span role="img" aria-label="Favorite">
           &#10084;&#65039;
@@ -23,7 +31,7 @@ function CardProdus({ img, titlu, brand, price, name, id }) {
       <Description>{titlu}</Description>
       <Producer href="#">{brand}</Producer>
       <Price>{price}</Price>
-      <AddToCartButton>
+      <AddToCartButton onClick={() => handleAddCart(id, name)}>
         <CartIcon>&#128722;</CartIcon>
       </AddToCartButton>
     </CardContainer>
