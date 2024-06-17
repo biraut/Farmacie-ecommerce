@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 
-export const CardContainer = styled(Link)`
+export const CardContainer = styled.div`
   width: 300px;
   border: 1px solid #ccc;
   border-radius: 5px;
@@ -11,6 +11,14 @@ export const CardContainer = styled(Link)`
   position: relative;
   background-color: whitesmoke;
   max-height: 500px;
+`;
+
+export const LinkContainer = styled(Link)`
+  width: 280px;
+  position: relative;
+  background-color: whitesmoke;
+  max-height: 400px;
+  text-decoration: none;
 `;
 
 export const Image = styled.img`
@@ -25,6 +33,7 @@ export const FavoriteButton = styled.button`
   border: none;
   cursor: pointer;
   position: absolute;
+  z-index: 1;
 `;
 
 export const Description = styled.p`

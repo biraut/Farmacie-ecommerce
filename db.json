@@ -543,7 +543,19 @@
       "brand": "Levaquin",
       "type": "Rețetă"
     },
-
+    {
+      "id": 3,
+      "name": "Aspirin",
+      "price": "18,50 LEI",
+      "img": "https://comenzi.farmaciatei.ro/gallery/89478/medium/aspirina-organica-60-capsule-herbagetica-4241.webp",
+      "contraindicatii": "Nu utilizați Lorem Ipsum Therapy: dacă sunteţi alergic la lorem ipsum sau dolor sit amet (precursor al lorem ipsumului) sau la oricare dintre celelalte componente ale acestui medicament",
+      "precautii": "Înainte să utilizaţi Lorem Ipsum Therapy, adresaţi-vă medicului dumneavoastră sau farmacistului. Sarcina, alăptarea și fertilitatea:Dacă sunteți gravidă sau alăptați, credeți că ați putea fi gravidă sau intenționați să rămâneți gravidă, adresați-vă medicului sau farmacistului pentru recomandări înainte de a lua acest medicament. Dacă este necesar, Lorem Ipsum Therapy poate fi utilizat în timpul sarcinii. Trebuie să utilizați cea mai mică doză posibilă care ajută la reducerea durerii și/sau febrei și cât mai scurt timp posibil. Adresați-vă medicului dumneavoastră în cazul în care durerea și/sau febra nu scade sau dacă aveți nevoie să administrați mai des medicamentul. La doze terapeutice, pe termen scurt, medicamentul poate fi administrat în cursul sarcinii, însă administrarea se va face cu recomandare numai după evaluarea beneficiului terapeutic al mamei în raport cu riscul potenţial la făt. Lorem ipsum traversează placenta şi se excretă în laptele matern.",
+      "description": "Aspirină 325mg, comprimate. Producător: Bayer AG.",
+      "titlu": "Aspirină 325mg, comprimate. Producător: Bayer AG.",
+      "brand": "Bayer",
+      "type": "Fără rețetă",
+      "promo": true
+    },
     {
       "id": 51,
       "name": "NUROFEN portocale pentru copii 3 luni+",

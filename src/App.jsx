@@ -13,7 +13,7 @@ import Promo from "./components/Promotii/Promotii";
 import Trend from "./components/Trend/Trend";
 import Noutati from "./components/Noutati/Noutati";
 import { cartReducer, initialStateCart } from "./store/reducer";
-import { useReducer } from "react";
+import { useReducer, useEffect } from "react";
 import { CartContext } from "./store/context";
 import Navbar from "./components/Navbar/Navbar";
 
@@ -27,6 +27,7 @@ function App() {
     stateGlobalCart,
     dispatchCart,
   };
+
   return (
     <CartContext.Provider value={cartContextValue}>
       <Navbar />

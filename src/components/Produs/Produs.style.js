@@ -3,7 +3,7 @@ import { Image } from "../Produse/Produse.styled";
 
 export const ProdusContainer = styled.div`
   display: flex;
-  padding: 450px 0px 0px 15%;
+  padding: 100px 0px 0px 10%;
   flex-wrap: wrap;
   flex-direction: column;
   color: white;
@@ -23,7 +23,7 @@ export const TitluProdus = styled.h4`
 
 export const ProductDetailsContainer = styled.div`
   font-family: Arial, sans-serif;
-  padding: 550px 0px 0px 86px;
+  padding: 150px 0px 0px 86px;
   color: black;
   background-color: white;
 `;
@@ -76,7 +76,7 @@ export const CardContainer = styled.div`
   width: 300px;
   height: 220px;
   text-align: center;
-  margin: 550px 20px 20px 76px;
+  margin: 150px 20px 20px 76px;
 `;
 
 export const Price = styled.div`

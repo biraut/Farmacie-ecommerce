@@ -49,6 +49,7 @@ export const ProdDropdown = styled.div`
   z-index: 1;
   padding: 10px;
   width: 17vw;
+  z-index: 2;
 `;
 
 export const DropdownItem = styled(Link)`
@@ -64,6 +65,7 @@ export const DropdownItem = styled(Link)`
   display: flex;
   align-items: center;
   justify-content: center;
+  z-index: 2;
 
   &:hover {
     background-color: #ddd;

@@ -9,29 +9,42 @@ import {
   Price,
   AddToCartButton,
   CartIcon,
+  LinkContainer,
 } from "./Produse.styled";
 import { CartContext } from "../../store/context";
 import { useContext } from "react";
-import { addToCart, removeFromCart } from "../../store/actions";
+import {
+  addToCart,
+  removeFromCart,
+  addToFav,
+  removeFromFav,
+} from "../../store/actions";
 
 function CardProdus({ img, titlu, brand, price, name, id }) {
   const { dispatchCart } = useContext(CartContext);
 
-  const handleAddCart = (id, name) => {
-    dispatchCart(addToCart(id, name));
+  const handleAddCart = (id, name, img, price) => {
+    dispatchCart(addToCart(id, name, img, price));
   };
+
+  const handleAddFav = (id, name, img, price) => {
+    dispatchCart(addToFav(id, name, img, price));
+  };
+
   return (
     <CardContainer>
-      <FavoriteButton>
+      <FavoriteButton onClick={() => handleAddFav(id, name, img, price)}>
         <span role="img" aria-label="Favorite">
           &#10084;&#65039;
         </span>
       </FavoriteButton>
-      <Image src={img} alt="Product" />
-      <Description>{titlu}</Description>
+      <LinkContainer to={`/produs/${id}`}>
+        <Image src={img} alt="Product" />
+        <Description>{titlu}</Description>
+      </LinkContainer>
       <Producer href="#">{brand}</Producer>
       <Price>{price}</Price>
-      <AddToCartButton onClick={() => handleAddCart(id, name)}>
+      <AddToCartButton onClick={() => handleAddCart(id, name, img, price)}>
         <CartIcon>&#128722;</CartIcon>
       </AddToCartButton>
     </CardContainer>

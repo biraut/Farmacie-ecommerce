@@ -9,6 +9,7 @@ import {
   returnToDefault,
 } from "../../store/actions";
 import { CartContext } from "../../store/context";
+import CardProdus from "../Produse/CardProdus";
 
 function Home() {
   return (

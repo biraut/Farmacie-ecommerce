@@ -13,7 +13,7 @@ import {
 import { ProdusContainer, ProdusImgSingle, TitluProdus } from "./Produs.style";
 
 function Produs() {
-  const { id } = useParams(); //am extras doar id din {id: 1}
+  const { img, titlu, brand, price, name, id } = useParams(); //am extras doar id din {id: 1}
   const { prods: produs, error, loading } = useFetchProd("/" + id);
   const { isLocalDataEmpty, localData, handleLocalData } =
     useLocalStorage("prods");

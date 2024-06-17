@@ -158,3 +158,76 @@ export const ButtonS = styled.button`
     border-radius: 8px;
   }
 `;
+export const LinkNavCart = styled.button`
+  position: absolute;
+  top: 0;
+  z-index: 10;
+  background-color: red;
+  color: black;
+  padding: 8px;
+  border-radius: 50%;
+  display: flex;
+  width: 4px;
+  height: 4px;
+  font-size: small;
+  justify-content: center;
+  align-items: center;
+  right: 0;
+  &:hover {
+    background-color: #ff7f7f;
+    display: flex;
+  }
+`;
+export const LinkNavFav = styled.button`
+  position: absolute;
+  top: 0;
+  z-index: 10;
+  background-color: red;
+  color: black;
+  padding: 8px;
+  border-radius: 50%;
+  display: flex;
+  width: 4px;
+  height: 4px;
+  font-size: small;
+  justify-content: center;
+  align-items: center;
+  right: 55%;
+  &:hover {
+    background-color: #ff7f7f;
+    display: flex;
+  }
+`;
+export const DropdownContainerFav = styled.div`
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  min-width: 200px;
+  padding: 10px;
+`;
+
+export const DropdownItem = styled.div`
+  padding: 8px 12px;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+  white-space: nowrap;
+  &:hover {
+    background-color: #f1f1f1;
+    display: flex;
+    flex-direction: row;
+  }
+`;
+export const Icon = styled.img`
+  width: 30px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  display: flex;
+  margin-right: 5px;
+`;
