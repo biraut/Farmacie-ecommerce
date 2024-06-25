@@ -1,4 +1,10 @@
 {
+  "emails": [
+    {
+      "id": 0,
+      "email": ""
+    }
+  ],
   "prods": [
     {
       "id": 1,
@@ -234,7 +240,7 @@
       "id": 20,
       "name": "Escitalopram",
       "price": "28,50 LEI",
-      "img": " https://chedrauimx.vtexassets.com/arquivos/ids/28218526/7501349024366_00.jpg?v=638470597544900000",
+      "img": "https://www.farmaciasespecializadas.com/media/catalog/product/cache/2031c741f7e965809b1df9e9ad67bd4c/3/1/31288_svsyuwarikl9kmvs.jpg",
       "description": "Escitalopram 10mg, comprimate. Producător: Lexapro Pharmaceuticals.",
       "titlu": "Escitalopram 10mg, comprimate. Producător: Lexapro Pharmaceuticals.",
       "brand": "Lexapro",

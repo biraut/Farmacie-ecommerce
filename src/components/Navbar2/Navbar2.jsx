@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useContext, useEffect, useRef } from "react";
 import {
   Nav,
   NavContainer,
@@ -9,22 +9,49 @@ import {
   NavLinks,
   NavLink,
 } from "./Navbar2.styled";
-import { Link } from "react-router-dom";
+import { ButtonDropdown } from "../Navbar/Navbar.style";
+import { List, X } from "react-bootstrap-icons";
+import { useLocation } from "react-router-dom";
+import ResponsiveButton from "./Offcanvas";
 
 function Navbar2() {
-  const [displayDropdown, setDisplayDropdown] = useState(true);
+  const [isDropdownVisible, setIsDropdownVisible] = useState(false);
+  const location = useLocation();
+  const dropdownRef = useRef(null);
 
-  const handleDisplayDropdown = () => {
-    setDisplayDropdown(!displayDropdown);
+  useEffect(() => {
+    if (location.pathname === "/home" || location.pathname === "/") {
+      setIsDropdownVisible(true);
+    } else {
+      setIsDropdownVisible(false);
+    }
+  }, [location.pathname]);
+
+  const toggleDropdown = () => {
+    setIsDropdownVisible(!isDropdownVisible);
   };
+
+  const handleClickOutside = (event) => {
+    if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+      setIsDropdownVisible(false);
+    }
+  };
+
+  useEffect(() => {
+    document.addEventListener("mousedown", handleClickOutside);
+
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
+
   return (
     <Nav>
       <NavContainer>
-        <ProdContainer>
-          <ProdButton onClick={handleDisplayDropdown}>
-            &#9776; Produse
-          </ProdButton>
-          <ProdDropdown isVisible={displayDropdown}>
+        <ProdContainer ref={dropdownRef}>
+          <ResponsiveButton></ResponsiveButton>
+          <ProdButton onClick={toggleDropdown}>&#9776; Produse</ProdButton>
+          <ProdDropdown isVisible={isDropdownVisible}>
             <DropdownItem>MEDICAMENTE OTC</DropdownItem>
             <DropdownItem>MEDICAMENTE CU RETETA</DropdownItem>
             <DropdownItem>DISPOZITIVE MEDICALE</DropdownItem>
@@ -33,9 +60,7 @@ function Navbar2() {
             <DropdownItem>INGRIJIRE PERSONALA</DropdownItem>
             <DropdownItem>DIETA SI WELLNESS</DropdownItem>
             <DropdownItem>VIATA SEXUALA</DropdownItem>
-            <DropdownItem to="/produse" onClick={handleDisplayDropdown}>
-              TOATE PRODUSELE
-            </DropdownItem>
+            <DropdownItem to="/produse">TOATE PRODUSELE</DropdownItem>
           </ProdDropdown>
         </ProdContainer>
         <NavLinks>

@@ -3,21 +3,40 @@ export const initialStateCart = {
   favValue: [],
 };
 
-export function cartReducer(state, action) {
-  console.log(state, action);
+export function cartReducer(state = initialStateCart, action) {
+  console.log(action);
   switch (action.type) {
-    case "ADD_TO_CART": {
-      return { ...state, cartValue: [...state.cartValue, action.payload] };
-    }
+    case "ADD_TO_CART":
+      const updatedCart = [...state.cartValue];
+      for (let i = 0; i < action.payload.quantity; i++) {
+        updatedCart.push({
+          id: action.payload.id,
+          name: action.payload.name,
+          img: action.payload.img,
+          price: action.payload.price,
+          quantity: 1,
+        });
+      }
+      return { ...state, cartValue: updatedCart };
+
     case "REMOVE_FROM_CART": {
-      let newState = {
-        ...state,
-        cartValue: state.cartValue.filter(
-          (prods) => prods.id !== action.payload
-        ),
-      };
-      console.log("newState=", newState);
-      return newState;
+      const existingCartItemIndex = state.cartValue.findIndex(
+        (item) => item.id === action.payload
+      );
+
+      if (existingCartItemIndex !== -1) {
+        const updatedCartValue = state.cartValue
+          .map((item, index) =>
+            index === existingCartItemIndex
+              ? { ...item, quantity: item.quantity - 1 }
+              : item
+          )
+          .filter((item) => item.quantity > 0);
+
+        return { ...state, cartValue: updatedCartValue };
+      } else {
+        return state;
+      }
     }
     case "ADD_TO_FAV": {
       const existingFavItemIndex = state.favValue.findIndex(
@@ -38,14 +57,20 @@ export function cartReducer(state, action) {
         };
       }
     }
+    case "DELETE_FROM_CART": {
+      return {
+        ...state,
+        cartValue: state.cartValue.filter(
+          (prods) => prods.id !== action.payload
+        ),
+      };
+    }
 
     case "REMOVE_FROM_FAV": {
-      let newState = {
+      return {
         ...state,
         favValue: state.favValue.filter((prods) => prods.id !== action.payload),
       };
-      console.log("newState=", newState);
-      return newState;
     }
     case "RETURN_TO_DEFAULT": {
       return initialStateCart;

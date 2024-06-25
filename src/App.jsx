@@ -16,6 +16,11 @@ import { cartReducer, initialStateCart } from "./store/reducer";
 import { useReducer, useEffect } from "react";
 import { CartContext } from "./store/context";
 import Navbar from "./components/Navbar/Navbar";
+import Newsletter from "./components/Newsletter/Newsletter";
+import CartPage from "./components/CartPage/CartPage";
+import FavPage from "./components/CartPage/FavPage";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "@fortawesome/fontawesome-free/css/all.min.css";
 
 function App() {
   const [stateGlobalCart, dispatchCart] = useReducer(
@@ -32,7 +37,6 @@ function App() {
     <CartContext.Provider value={cartContextValue}>
       <Navbar />
       <Navbar2 />
-      <ContainerTable></ContainerTable>
       <Routes>
         <Route path="/home" element={<Home />} />
         <Route path="/" element={<Home />} />
@@ -41,8 +45,10 @@ function App() {
         <Route path="/promotii" element={<Promo />} />
         <Route path="/trend" element={<Trend />} />
         <Route path="/noutati" element={<Noutati />} />
+        <Route path="/cart" element={<CartPage />} />
+        <Route path="/favorite" element={<FavPage />} />
       </Routes>
-
+      <Newsletter />
       <Footer />
     </CartContext.Provider>
   );

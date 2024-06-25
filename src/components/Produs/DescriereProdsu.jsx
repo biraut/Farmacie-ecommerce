@@ -30,7 +30,6 @@ function DescriereProdus() {
       {error && <div>Error on getting data, Server is down </div>}
       {produs && (
         <>
-          <SectionTitle>{produs.titlu}</SectionTitle>
           <TitluProdus>Descriere:</TitluProdus>
           <Description>{produs.description}</Description>
           <TitluProdus>Contraindicații:</TitluProdus>

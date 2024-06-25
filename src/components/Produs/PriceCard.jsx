@@ -32,8 +32,13 @@ const PriceCard = () => {
   const { isLocalDataEmpty, localData, handleLocalData } =
     useLocalStorage("prods");
 
-  const handleAddCart = (id, name, img, price) => {
-    dispatchCart(addToCart(id, name, img, price));
+  const handleAddCart = () => {
+    if (produs) {
+      dispatchCart(
+        addToCart(id, produs.name, produs.img, produs.price, quantity)
+      );
+      setQuantity(1);
+    }
   };
 
   const addNewId = () => {
@@ -66,7 +71,11 @@ const PriceCard = () => {
               <Button onClick={incrementQuantity}>+</Button>
             </QuantityControls>
           </QuantityContainer>
-          <AddToCartButton onClick={() => handleAddCart(id, name, img, price)}>
+          <AddToCartButton
+            onClick={() =>
+              handleAddCart(produs.id, produs.name, produs.img, produs.price)
+            }
+          >
             <CartIcon>🛒</CartIcon> ADAUGĂ ÎN COȘ
           </AddToCartButton>
         </>

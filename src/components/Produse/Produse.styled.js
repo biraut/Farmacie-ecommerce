@@ -23,17 +23,26 @@ export const LinkContainer = styled(Link)`
 
 export const Image = styled.img`
   width: 100%;
-  max-height: 250px;
+  height: 250px;
   border-radius: 5px;
   background-color: transparent;
 `;
 
 export const FavoriteButton = styled.button`
-  background-color: transparent;
+  background: none;
   border: none;
   cursor: pointer;
+  font-size: 24px;
   position: absolute;
   z-index: 1;
+
+  &:hover {
+    color: red;
+  }
+`;
+
+export const FavoriteIcon = styled.span`
+  color: ${(props) => (props.isfavorite ? "red" : "black")};
 `;
 
 export const Description = styled.p`
@@ -79,6 +88,7 @@ export const CartIcon = styled.span`
 
 export const ProduseContainer = styled.div`
   display: flex;
-  padding: 50px 250px 0px;
+  padding: 50px 100px 0px;
   flex-wrap: wrap;
+  justify-content: center;
 `;

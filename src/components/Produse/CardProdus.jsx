@@ -3,7 +3,6 @@ import styled from "styled-components";
 import {
   CardContainer,
   Image,
-  FavoriteButton,
   Description,
   Producer,
   Price,
@@ -11,33 +10,34 @@ import {
   CartIcon,
   LinkContainer,
 } from "./Produse.styled";
+import FavoriteButtonComponent from "./FavoriteButton";
 import { CartContext } from "../../store/context";
 import { useContext } from "react";
 import {
   addToCart,
   removeFromCart,
-  addToFav,
   removeFromFav,
+  addToFav,
 } from "../../store/actions";
 
 function CardProdus({ img, titlu, brand, price, name, id }) {
-  const { dispatchCart } = useContext(CartContext);
+  const { state, dispatchCart } = useContext(CartContext);
 
   const handleAddCart = (id, name, img, price) => {
     dispatchCart(addToCart(id, name, img, price));
   };
 
-  const handleAddFav = (id, name, img, price) => {
-    dispatchCart(addToFav(id, name, img, price));
-  };
+  const isfavorite = state?.favValue?.some((item) => item.id === id);
 
   return (
     <CardContainer>
-      <FavoriteButton onClick={() => handleAddFav(id, name, img, price)}>
-        <span role="img" aria-label="Favorite">
-          &#10084;&#65039;
-        </span>
-      </FavoriteButton>
+      <FavoriteButtonComponent
+        id={id}
+        name={name}
+        img={img}
+        price={price}
+        isfavorite={isfavorite}
+      />
       <LinkContainer to={`/produs/${id}`}>
         <Image src={img} alt="Product" />
         <Description>{titlu}</Description>

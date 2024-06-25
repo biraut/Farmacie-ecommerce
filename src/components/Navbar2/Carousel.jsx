@@ -2,9 +2,9 @@ import React from "react";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import styled from "styled-components";
-import { CarouselContainer } from "./Navbar2.styled";
+import { CarouselContainerB } from "./Navbar2.styled";
 const CarouselComponent = () => (
-  <CarouselContainer>
+  <CarouselContainerB>
     <Carousel
       showArrows={true}
       infiniteLoop={true}
@@ -54,7 +54,7 @@ const CarouselComponent = () => (
         />
       </div>
     </Carousel>
-  </CarouselContainer>
+  </CarouselContainerB>
 );
 
 export default CarouselComponent;

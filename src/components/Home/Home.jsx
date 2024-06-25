@@ -1,8 +1,9 @@
-import { HomeContainer, HomeImageBackground, HomeText } from "./Home.style";
+import { HomeContainerB, HomeImageBackground, HomeText } from "./Home.style";
 import CarouselComponent from "../Navbar2/Carousel";
 import Button from "react-bootstrap/Button";
 import { ContainerTable } from "../Navbar2/Navbar2.styled";
 import React, { useContext } from "react";
+import CartPage from "../CartPage/CartPage";
 import {
   addToCart,
   removeFromCart,
@@ -13,11 +14,9 @@ import CardProdus from "../Produse/CardProdus";
 
 function Home() {
   return (
-    <HomeContainer>
-      <ContainerTable>
-        <CarouselComponent />
-      </ContainerTable>
-    </HomeContainer>
+    <HomeContainerB>
+      <CarouselComponent />
+    </HomeContainerB>
   );
 }
 
