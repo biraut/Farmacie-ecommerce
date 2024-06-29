@@ -1,9 +1,10 @@
-import React, { useState } from "react";
+import React, { useState, useContext, useEffect } from "react";
 import styled from "styled-components";
-import { useEffect } from "react";
 import { useParams } from "react-router-dom";
 import useFetchProd from "../../hooks/useFetchProd";
 import useLocalStorage from "../../hooks/useLocalStorage";
+import { CartContext } from "../../store/context";
+import { addToCart } from "../../store/actions";
 import {
   CardContainer,
   Price,
@@ -18,15 +19,27 @@ import {
   AddToCartButton,
   CartIcon,
 } from "./Produs.style";
+
 const PriceCard = () => {
   const [quantity, setQuantity] = useState(1);
+  const { dispatchCart } = useContext(CartContext);
+  const { img, titlu, brand, price, name, id } = useParams();
 
   const incrementQuantity = () => setQuantity(quantity + 1);
   const decrementQuantity = () => setQuantity(quantity > 1 ? quantity - 1 : 1);
-  const { id } = useParams(); //am extras doar id din {id: 1}
+
   const { prods: produs, error, loading } = useFetchProd("/" + id);
   const { isLocalDataEmpty, localData, handleLocalData } =
     useLocalStorage("prods");
+
+  const handleAddCart = () => {
+    if (produs) {
+      dispatchCart(
+        addToCart(id, produs.name, produs.img, produs.price, quantity)
+      );
+      setQuantity(1);
+    }
+  };
 
   const addNewId = () => {
     if (produs) {
@@ -58,7 +71,11 @@ const PriceCard = () => {
               <Button onClick={incrementQuantity}>+</Button>
             </QuantityControls>
           </QuantityContainer>
-          <AddToCartButton>
+          <AddToCartButton
+            onClick={() =>
+              handleAddCart(produs.id, produs.name, produs.img, produs.price)
+            }
+          >
             <CartIcon>🛒</CartIcon> ADAUGĂ ÎN COȘ
           </AddToCartButton>
         </>

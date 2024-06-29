@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 
-export const CardContainer = styled(Link)`
+export const CardContainer = styled.div`
   width: 300px;
   border: 1px solid #ccc;
   border-radius: 5px;
@@ -13,18 +13,43 @@ export const CardContainer = styled(Link)`
   max-height: 500px;
 `;
 
+export const LinkContainer = styled(Link)`
+  width: 280px;
+  position: relative;
+  background-color: whitesmoke;
+  max-height: 400px;
+  text-decoration: none;
+`;
+
 export const Image = styled.img`
   width: 100%;
-  max-height: 250px;
+  height: 250px;
   border-radius: 5px;
   background-color: transparent;
+  transition: transform 0.3s ease;
+
+&:hover {
+  transform: scale(1.05)}
 `;
 
 export const FavoriteButton = styled.button`
-  background-color: transparent;
+  background: none;
   border: none;
   cursor: pointer;
+  font-size: 24px;
   position: absolute;
+  z-index: 1;
+  width: 40px;
+  &:hover {
+    background-color: darkgrey;
+    border-radius: 50%;
+  }
+`;
+
+export const FavoriteIcon = styled.span`
+  color: ${(props) => (props.isfavorite ? "red" : "black")};
+  justify-content: center;
+  align-items: center;
 `;
 
 export const Description = styled.p`
@@ -62,6 +87,10 @@ export const AddToCartButton = styled.button`
   position: absolute;
   top: calc(80% + 4px);
   right: 20px;
+
+  &:hover {
+    background-color: darkgreen;
+  }
 `;
 
 export const CartIcon = styled.span`
@@ -70,6 +99,7 @@ export const CartIcon = styled.span`
 
 export const ProduseContainer = styled.div`
   display: flex;
-  padding: 450px 250px 0px;
+  padding: 50px 100px 0px;
   flex-wrap: wrap;
+  justify-content: center;
 `;

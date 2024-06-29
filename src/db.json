@@ -1,10 +1,4 @@
 {
-  "emails": [
-    {
-      "id": 0,
-      "email": ""
-    }
-  ],
   "prods": [
     {
       "id": 1,
@@ -82,7 +76,6 @@
       "titlu": "Metformină 500mg, comprimate. Producător: Glucophage Corp.",
       "brand": "Glucophage",
       "promo": true,
-      "trend": true,
       "type": "Rețetă"
     },
     {
@@ -121,7 +114,6 @@
       "titlu": "Simvastatin 10mg, comprimate. Producător: Zocor Ltd.",
       "brand": "Zocor",
       "promo": true,
-      "trend": true,
       "type": "Rețetă"
     },
     {
@@ -146,7 +138,6 @@
       "precautii": "Înainte să utilizaţi Lorem Ipsum Therapy, adresaţi-vă medicului dumneavoastră sau farmacistului. Sarcina, alăptarea și fertilitatea:Dacă sunteți gravidă sau alăptați, credeți că ați putea fi gravidă sau intenționați să rămâneți gravidă, adresați-vă medicului sau farmacistului pentru recomandări înainte de a lua acest medicament. Dacă este necesar, Lorem Ipsum Therapy poate fi utilizat în timpul sarcinii. Trebuie să utilizați cea mai mică doză posibilă care ajută la reducerea durerii și/sau febrei și cât mai scurt timp posibil. Adresați-vă medicului dumneavoastră în cazul în care durerea și/sau febra nu scade sau dacă aveți nevoie să administrați mai des medicamentul. La doze terapeutice, pe termen scurt, medicamentul poate fi administrat în cursul sarcinii, însă administrarea se va face cu recomandare numai după evaluarea beneficiului terapeutic al mamei în raport cu riscul potenţial la făt. Lorem ipsum traversează placenta şi se excretă în laptele matern.",
       "titlu": "Albuterol 90mcg, inhalator. Producător: Ventolin Pharmaceuticals.",
       "brand": "Ventolin",
-      "trend": true,
       "type": "Rețetă"
     },
     {
@@ -172,7 +163,6 @@
       "precautii": "Înainte să utilizaţi Lorem Ipsum Therapy, adresaţi-vă medicului dumneavoastră sau farmacistului. Sarcina, alăptarea și fertilitatea:Dacă sunteți gravidă sau alăptați, credeți că ați putea fi gravidă sau intenționați să rămâneți gravidă, adresați-vă medicului sau farmacistului pentru recomandări înainte de a lua acest medicament. Dacă este necesar, Lorem Ipsum Therapy poate fi utilizat în timpul sarcinii. Trebuie să utilizați cea mai mică doză posibilă care ajută la reducerea durerii și/sau febrei și cât mai scurt timp posibil. Adresați-vă medicului dumneavoastră în cazul în care durerea și/sau febra nu scade sau dacă aveți nevoie să administrați mai des medicamentul. La doze terapeutice, pe termen scurt, medicamentul poate fi administrat în cursul sarcinii, însă administrarea se va face cu recomandare numai după evaluarea beneficiului terapeutic al mamei în raport cu riscul potenţial la făt. Lorem ipsum traversează placenta şi se excretă în laptele matern.",
       "titlu": "Sertralină 50mg, comprimate. Producător: Zoloft Inc.",
       "brand": "Zoloft",
-      "trend": true,
       "type": "Rețetă"
     },
     {
@@ -218,7 +208,6 @@
       "description": "Citalopram 20mg, comprimate. Producător: Celexa Inc.",
       "titlu": "Citalopram 20mg, comprimate. Producător: Celexa Inc.",
       "brand": "Celexa",
-      "trend": true,
       "type": "Rețetă"
     },
     {
@@ -245,11 +234,10 @@
       "id": 20,
       "name": "Escitalopram",
       "price": "28,50 LEI",
-      "img": "https://www.farmaciasespecializadas.com/media/catalog/product/cache/2031c741f7e965809b1df9e9ad67bd4c/3/1/31288_svsyuwarikl9kmvs.jpg",
+      "img": " https://chedrauimx.vtexassets.com/arquivos/ids/28218526/7501349024366_00.jpg?v=638470597544900000",
       "description": "Escitalopram 10mg, comprimate. Producător: Lexapro Pharmaceuticals.",
       "titlu": "Escitalopram 10mg, comprimate. Producător: Lexapro Pharmaceuticals.",
       "brand": "Lexapro",
-      "trend": true,
       "type": "Rețetă"
     },
     {
@@ -311,7 +299,6 @@
       "description": "Alprazolam 1mg, comprimate. Producător: Xanax Pharmaceuticals.",
       "titlu": "Alprazolam 1mg, comprimate. Producător: Xanax Pharmaceuticals.",
       "brand": "Xanax",
-      "trend": true,
       "type": "Rețetă"
     },
     {
@@ -363,7 +350,6 @@
       "description": "Carvedilol 12.5mg, comprimate. Producător: Coreg Pharmaceuticals.",
       "titlu": "Carvedilol 12.5mg, comprimate. Producător: Coreg Pharmaceuticals.",
       "brand": "Coreg",
-      "trend": true,
       "type": "Rețetă"
     },
     {

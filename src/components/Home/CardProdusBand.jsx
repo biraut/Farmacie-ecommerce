@@ -1,26 +1,22 @@
 import React from "react";
 import styled from "styled-components";
 import {
-  CardContainer,
-  Image,
+  Card,
   Description,
-  Producer,
+  Image,
+  Title,
   Price,
-  AddToCartButton,
-  CartIcon,
-  LinkContainer,
-} from "./Produse.styled";
-import FavoriteButtonComponent from "./FavoriteButton";
+  AddToCartButtonBand,
+  Producer,
+  LinkContainerProdus,
+} from "./Home.style";
+import { CartIcon } from "../Produse/Produse.styled";
 import { CartContext } from "../../store/context";
 import { useContext } from "react";
-import {
-  addToCart,
-  removeFromCart,
-  removeFromFav,
-  addToFav,
-} from "../../store/actions";
+import { addToCart, removeFromFav, addToFav } from "../../store/actions";
+import FavoriteButtonComponent from "../Produse/FavoriteButton";
 
-function CardProdus({ img, titlu, brand, price, name, id }) {
+const CardProdusBand = ({ name, img, price, titlu, id, brand }) => {
   const { state, dispatchCart } = useContext(CartContext);
 
   const handleAddCart = (id, name, img, price) => {
@@ -30,7 +26,7 @@ function CardProdus({ img, titlu, brand, price, name, id }) {
   const isfavorite = state?.favValue?.some((item) => item.id === id);
 
   return (
-    <CardContainer>
+    <Card>
       <FavoriteButtonComponent
         id={id}
         name={name}
@@ -38,17 +34,18 @@ function CardProdus({ img, titlu, brand, price, name, id }) {
         price={price}
         isfavorite={isfavorite}
       />
-      <LinkContainer to={`/produs/${id}`}>
-        <Image src={img} alt="Product" />
+      <LinkContainerProdus to={`/produs/${id}`}>
+        <Image src={img} alt={name} />
+        <Title>{name}</Title>
         <Description>{titlu}</Description>
-      </LinkContainer>
+      </LinkContainerProdus>
       <Producer href="#">{brand}</Producer>
-      <Price>{price}</Price>
-      <AddToCartButton onClick={() => handleAddCart(id, name, img, price)}>
+      <Price>{price} </Price>
+      <AddToCartButtonBand onClick={() => handleAddCart(id, name, img, price)}>
         <CartIcon>&#128722;</CartIcon>
-      </AddToCartButton>
-    </CardContainer>
+      </AddToCartButtonBand>
+    </Card>
   );
-}
+};
 
-export default CardProdus;
+export default CardProdusBand;

@@ -2,18 +2,19 @@ import { useEffect } from "react";
 import { useParams } from "react-router-dom";
 import useFetchProd from "../../hooks/useFetchProd";
 import useLocalStorage from "../../hooks/useLocalStorage";
+import FavoriteButtonComponent from "../Produse/FavoriteButton";
+import { CartContext } from "../../store/context";
+import { useContext } from "react";
 import {
-  FavoriteButton,
-  Description,
-  Producer,
-  Price,
-  AddToCartButton,
-  CartIcon,
-} from "../Produse/Produse.styled";
+  addToCart,
+  removeFromCart,
+  addToFav,
+  removeFromFav,
+} from "../../store/actions";
 import { ProdusContainer, ProdusImgSingle, TitluProdus } from "./Produs.style";
 
 function Produs() {
-  const { id } = useParams(); //am extras doar id din {id: 1}
+  const { img, titlu, brand, price, name, id } = useParams();
   const { prods: produs, error, loading } = useFetchProd("/" + id);
   const { isLocalDataEmpty, localData, handleLocalData } =
     useLocalStorage("prods");
@@ -25,6 +26,9 @@ function Produs() {
       handleLocalData("prods", JSON.stringify(newLocalData));
     }
   };
+  const { state, dispatchCart } = useContext(CartContext);
+
+  const isfavorite = state?.favValue?.some((item) => item.id === id);
 
   useEffect(() => {
     if (localData || isLocalDataEmpty || produs) addNewId();
@@ -38,7 +42,13 @@ function Produs() {
         <>
           <TitluProdus>{produs.titlu}</TitluProdus>
           <ProdusImgSingle src={produs.img} alt="Product" />
-          <FavoriteButton>&#10084;&#65039;</FavoriteButton>
+          <FavoriteButtonComponent
+            id={produs.id}
+            name={produs.name}
+            img={produs.img}
+            price={produs.price}
+            isfavorite={isfavorite}
+          />
         </>
       )}
     </ProdusContainer>

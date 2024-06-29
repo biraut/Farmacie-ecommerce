@@ -3,7 +3,7 @@ import { Image } from "../Produse/Produse.styled";
 
 export const ProdusContainer = styled.div`
   display: flex;
-  padding: 450px 0px 0px 15%;
+  padding: 100px 0px 0px 10%;
   flex-wrap: wrap;
   flex-direction: column;
   color: white;
@@ -14,18 +14,31 @@ export const ProdusImgSingle = styled(Image)`
   max-height: 100%;
   height: 400px;
   width: 500px;
+  @media screen and (max-width: 520px) {
+    width: 250px;
+    height: 230px;
+  }
 `;
 
 export const TitluProdus = styled.h4`
   color: black;
   text-align: left;
+  display: flex;
+  padding-top: 50px;
 `;
 
 export const ProductDetailsContainer = styled.div`
   font-family: Arial, sans-serif;
-  padding: 550px 0px 0px 86px;
+  padding: 250px 0px 0px 86px;
   color: black;
   background-color: white;
+
+  @media screen and (max-width: 955px) {
+    padding: 100px 0px 0px 220px;
+  }
+  @media screen and (max-width: 520px) {
+    padding: 100px 20px 20px 100px;
+  }
 `;
 
 export const Rating = styled.div`
@@ -76,7 +89,13 @@ export const CardContainer = styled.div`
   width: 300px;
   height: 220px;
   text-align: center;
-  margin: 550px 20px 20px 76px;
+  margin: 250px 20px 20px 76px;
+  @media screen and (max-width: 1413px) {
+    margin: 100px 20px 20px 191px;
+  }
+  @media screen and (max-width: 520px) {
+    margin: 100px 20px 20px 50px;
+  }
 `;
 
 export const Price = styled.div`
@@ -109,7 +128,7 @@ export const LastUpdate = styled.div`
 export const QuantityContainer = styled.div`
   display: flex;
   align-items: center;
-  margin-left: 36px;
+  margin-left: 12px;
   margin-bottom: 20px;
 `;
 
@@ -140,7 +159,7 @@ export const QuantityInput = styled.input`
 
 export const AddToCartButton = styled.button`
   background-color: #28a745;
-  width: 288px;
+  width: 250px;
   color: white;
   border: none;
   border-radius: 5px;
